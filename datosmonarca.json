@@ -1,0 +1,6661 @@
+{
+  "version": "1.0",
+  "generado": "2026-04-30T21:14:05.963Z",
+  "config": {
+    "rutaInventario": "INVENTARIO PRODUCTO TERMINANDO BODEGA.xlsx",
+    "proveedorERP": "SAP",
+    "fechaActualizacion": "2026-04-30T21:10:36.520Z"
+  },
+  "inventarioMeta": {
+    "fileName": "INVENTARIO PRODUCTO TERMINANDO BODEGA.xlsx",
+    "ts": "2026-04-30 16:10",
+    "rows": 468
+  },
+  "plantas": [
+    {
+      "id": "pl-molzauejl2r52",
+      "nombre": "Planta 1",
+      "ubicacion": "Zona Sur",
+      "descripcion": "Planta de Leches"
+    }
+  ],
+  "maquinas": [
+    {
+      "id": "mq-molzbbj7o6mz7",
+      "plantaId": "pl-molzauejl2r52",
+      "nombre": "Marmita",
+      "capacidad_kg_h": 1000,
+      "descripcion": "Lavado",
+      "productos": []
+    }
+  ],
+  "materiasPrimas": [
+    {
+      "id": "mt-molz732k46jr4",
+      "codigo": "1001",
+      "descripcion": "ALMIDON CORRUMEZ",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.9916,
+      "stock": 627370
+    },
+    {
+      "id": "mt-molz732lnj72j",
+      "codigo": "160310",
+      "descripcion": "MIX ZUMO DE CEREZA *500 CM3",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 615.3975,
+      "stock": 300
+    },
+    {
+      "id": "mt-molz732l94dbm",
+      "codigo": "160322",
+      "descripcion": "MIX ZUMO DE CEREZA *1000 CM3",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 797.1524,
+      "stock": 4
+    },
+    {
+      "id": "mt-molz732lx93no",
+      "codigo": "160324",
+      "descripcion": "MIX ZUMO DE CEREZA *2000 CM3",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 1370.84,
+      "stock": 48
+    },
+    {
+      "id": "mt-molz732lwmuq9",
+      "codigo": "160610",
+      "descripcion": "MIX ZUMO DE LIMON *500 CM3",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 843.1375,
+      "stock": 28
+    },
+    {
+      "id": "mt-molz732lypj8o",
+      "codigo": "160622",
+      "descripcion": "MIX ZUMO DE LIMON *1000 CM3",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 1392.871,
+      "stock": 570
+    },
+    {
+      "id": "mt-molz732ld25oy",
+      "codigo": "160624",
+      "descripcion": "MIX ZUMO DE LIMON *2000 CM3",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 1817.374,
+      "stock": 1241
+    },
+    {
+      "id": "mt-molz732l8epvn",
+      "codigo": "180210",
+      "descripcion": "MANGA GELATINA FRAMBUESA*500G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 3135.3618,
+      "stock": 13
+    },
+    {
+      "id": "mt-molz732l7nzj1",
+      "codigo": "193217-1",
+      "descripcion": "BOLSA GALON SALSA CON TOMATE*4000G GAVIUS",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 4,
+      "costo_unidad": 6070.1736,
+      "stock": 6
+    },
+    {
+      "id": "mt-molz732ls9ea3",
+      "codigo": "193417-1",
+      "descripcion": "BOLSA GALON SALSA CON BBQ*4000G GAVIUS",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 4,
+      "costo_unidad": 8371.468,
+      "stock": 1
+    },
+    {
+      "id": "mt-molz732ltgcr0",
+      "codigo": "193717",
+      "descripcion": "BOLSA GALON SALSA CON MOSTAZA*4000G SECRRETOS",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 4,
+      "costo_unidad": 5399.0563,
+      "stock": 14
+    },
+    {
+      "id": "mt-molz732lw2nlp",
+      "codigo": "194034",
+      "descripcion": "SALSA NEGRA GAVIUS * 3800g",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 3.8,
+      "costo_unidad": 6896.6275,
+      "stock": 42
+    },
+    {
+      "id": "mt-molz732l5uh7u",
+      "codigo": "194110",
+      "descripcion": "SALSA SOYA GAVIUS * 500ML",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1271.9797,
+      "stock": 6
+    },
+    {
+      "id": "mt-molz732lla9ge",
+      "codigo": "194122",
+      "descripcion": "SALSA SOYA GAVIUS * 1000ML",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2096.8788,
+      "stock": 24
+    },
+    {
+      "id": "mt-molz732lk5uys",
+      "codigo": "194334",
+      "descripcion": "SALSA CARNE GAVIUS * 3800g",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 3.8,
+      "costo_unidad": 10082.4673,
+      "stock": 11
+    },
+    {
+      "id": "mt-molz732l0j4gx",
+      "codigo": "195104",
+      "descripcion": "Display Salsa Soya Gavius Doypack *110ml x 6 Unidades",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2983.5935,
+      "stock": 3
+    },
+    {
+      "id": "mt-molz732l4bpl2",
+      "codigo": "307222",
+      "descripcion": "VINAGRE NATURAL * 1000gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 981.3082,
+      "stock": 4
+    },
+    {
+      "id": "mt-molz732lb6h5p",
+      "codigo": "307237",
+      "descripcion": "VINAGRE NATURAL * 3000 gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 3,
+      "costo_unidad": 2504.2857,
+      "stock": 471
+    },
+    {
+      "id": "mt-molz732lihr09",
+      "codigo": "307251",
+      "descripcion": "BIDON VINAGRE *20KG",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 20,
+      "costo_unidad": 15550.4043,
+      "stock": 2
+    },
+    {
+      "id": "mt-molz732l9sfxc",
+      "codigo": "307337",
+      "descripcion": "VINAGRE MANZANA * 3000 gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 3,
+      "costo_unidad": 2492.0513,
+      "stock": 62
+    },
+    {
+      "id": "mt-molz732lrn07m",
+      "codigo": "307410",
+      "descripcion": "VINAGRE NATURAL * 500 gr \"GAVIUS\"",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 696.4465,
+      "stock": 19
+    },
+    {
+      "id": "mt-molz732ljeuim",
+      "codigo": "307510",
+      "descripcion": "VINAGRE MANZANA * 500 gr GAVIUS",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 742.6087,
+      "stock": 788
+    },
+    {
+      "id": "mt-molz732liu9w0",
+      "codigo": "397410",
+      "descripcion": "CREMA DE CHANTILLY * 500 gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 6574.12,
+      "stock": 150
+    },
+    {
+      "id": "mt-molz732lh456q",
+      "codigo": "397422",
+      "descripcion": "CREMA DE CHANTILLY * 1000 gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 12781.2933,
+      "stock": 100
+    },
+    {
+      "id": "mt-molz732ls56g1",
+      "codigo": "AD001",
+      "descripcion": "PASTA DE TOMATE HB QUIMICA AROMATICA ANDINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5,
+      "stock": 260468.203125
+    },
+    {
+      "id": "mt-molz732l8h1yp",
+      "codigo": "AD004",
+      "descripcion": "AJO FRESCO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 3.5294,
+      "stock": 268790.17676
+    },
+    {
+      "id": "mt-molz732lhd18u",
+      "codigo": "AD005",
+      "descripcion": "AJI FRESCO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.042,
+      "stock": 1642627.591479
+    },
+    {
+      "id": "mt-molz732lxtx1i",
+      "codigo": "COL001",
+      "descripcion": "ROJO PONCEAU CP110RP004",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 57.3,
+      "stock": 1477.58873
+    },
+    {
+      "id": "mt-molz732lm1kdq",
+      "codigo": "COL005",
+      "descripcion": "CLOR ROJO PUNZO 4R CABARRIA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 35.55,
+      "stock": 13799.740534
+    },
+    {
+      "id": "mt-molz732lp2oqv",
+      "codigo": "COL006",
+      "descripcion": "COLOR TARTACINA( cabarria)",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 25.15,
+      "stock": 57415.295961
+    },
+    {
+      "id": "mt-molz732lh4c8t",
+      "codigo": "COL181",
+      "descripcion": "DIOXIDO titanio COLOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 13.8,
+      "stock": 24149.538318
+    },
+    {
+      "id": "mt-molz732lrxgcp",
+      "codigo": "COL182",
+      "descripcion": "VERDE MENTA CP120VM003",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 93.57,
+      "stock": 2508.710319
+    },
+    {
+      "id": "mt-molz732lfd62t",
+      "codigo": "COL184",
+      "descripcion": "CARAMELO LIQUIDO AP-2000-V COLOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.9,
+      "stock": 15069.775302
+    },
+    {
+      "id": "mt-molz732lnijft",
+      "codigo": "COL186",
+      "descripcion": "COLOR NEGRO PLUS TUSKA CABARRIA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 67.2,
+      "stock": 0.31
+    },
+    {
+      "id": "mt-molz732lzp9cy",
+      "codigo": "COL201",
+      "descripcion": "LACA AMARRILLO TARTRACINA No 6",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 43,
+      "stock": 10288.024227
+    },
+    {
+      "id": "mt-molz732lc0t6u",
+      "codigo": "COL50",
+      "descripcion": "NARANJA No 6 CP110NA001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 38.6,
+      "stock": 745.224467
+    },
+    {
+      "id": "mt-molz732lz4nfu",
+      "codigo": "COL80",
+      "descripcion": "COLOR VERDE COMINO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 182,
+      "stock": 6640.12
+    },
+    {
+      "id": "mt-molz732l4aftv",
+      "codigo": "COL84",
+      "descripcion": "MORA ESPECIAL CP130ME004",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 68.12,
+      "stock": 0.218998
+    },
+    {
+      "id": "mt-molz732lw3ct9",
+      "codigo": "COM003",
+      "descripcion": "AJONJOLI IMPORTADO * 25000G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 25,
+      "costo_unidad": 9.7479,
+      "stock": 90621.505566
+    },
+    {
+      "id": "mt-molz732louu5m",
+      "codigo": "COM194722",
+      "descripcion": "PASTA DE AJO GAVIUS *1000G",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 2472.3429,
+      "stock": 23
+    },
+    {
+      "id": "mt-molz732l98gym",
+      "codigo": "E100-11",
+      "descripcion": "ENVASE VINAGRE * 3000 gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 3,
+      "costo_unidad": 1823.7231,
+      "stock": 2242
+    },
+    {
+      "id": "mt-molz732l6gs5j",
+      "codigo": "E100-119",
+      "descripcion": "ENVASE MIX ZUMO LIMON * 4000 gr",
+      "unidad_compra": "unidad",
+      "contenido_kg": 4,
+      "costo_unidad": 1848.5509,
+      "stock": 566
+    },
+    {
+      "id": "mt-molz732lu8xrq",
+      "codigo": "e100-13",
+      "descripcion": "BOLSA DOY PACK MIEL 150g",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.15,
+      "costo_unidad": 145,
+      "stock": 34639
+    },
+    {
+      "id": "mt-molz732ln2e3s",
+      "codigo": "E100-151",
+      "descripcion": "ENVASE SALSERO 165 g TAPA ROJA",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.165,
+      "costo_unidad": 714.2847,
+      "stock": 6804
+    },
+    {
+      "id": "mt-molz732l7ntq7",
+      "codigo": "E100-154",
+      "descripcion": "BOLSA GALON 4 KILOS MENBRETE TOMATE \"GAVIUS\"",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 535,
+      "stock": 8120
+    },
+    {
+      "id": "mt-molz732lgr3dk",
+      "codigo": "E100-155",
+      "descripcion": "BOLSA GALON 4 KILOS MENBRETE MAYONESA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 535,
+      "stock": 8530
+    },
+    {
+      "id": "mt-molz732l4ewuw",
+      "codigo": "E100-156",
+      "descripcion": "BOLSA GALON 4 KILOS MENBRETE BBQ",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 535,
+      "stock": 11119
+    },
+    {
+      "id": "mt-molz732l2tbcy",
+      "codigo": "E100-157",
+      "descripcion": "BOLSA GALON 4 KILOS MENBRETE ROSADA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 855.4621,
+      "stock": 1514
+    },
+    {
+      "id": "mt-molz732lxex5j",
+      "codigo": "E100-158",
+      "descripcion": "BOLSA GALON 4 KILOS MENBRETE CHEDDAR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 855.462,
+      "stock": 11129
+    },
+    {
+      "id": "mt-molz732lac03n",
+      "codigo": "E100-2",
+      "descripcion": "BOTELLA DE ESENCIA 500",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 526.297,
+      "stock": 9787
+    },
+    {
+      "id": "mt-molz732ladhb9",
+      "codigo": "E100-28",
+      "descripcion": "ENVASE PET 1 LITRO POLAR 10X104 SAZONADORA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 856.2539,
+      "stock": 2536
+    },
+    {
+      "id": "mt-molz732llkx9p",
+      "codigo": "E100-32",
+      "descripcion": "ENVASES PET 1000 DIAMANTE ZUMO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1079.1593,
+      "stock": 2
+    },
+    {
+      "id": "mt-molz732lixnny",
+      "codigo": "E100-34",
+      "descripcion": "ENVASES PET 2000 ZUMO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1010.0838,
+      "stock": 3432
+    },
+    {
+      "id": "mt-molz732lwk3kw",
+      "codigo": "E100-47",
+      "descripcion": "ENV. POTE 500GM",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 770.7,
+      "stock": 118
+    },
+    {
+      "id": "mt-molz732ll4hf5",
+      "codigo": "E100-51",
+      "descripcion": "DPV SALSA SAZONADORA 110ML CARNE",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 236.9745,
+      "stock": 3440
+    },
+    {
+      "id": "mt-molz732l3ay26",
+      "codigo": "E100-52",
+      "descripcion": "DPV SALSA SAZONADORA 110ML CHINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 236.9745,
+      "stock": 2996
+    },
+    {
+      "id": "mt-molz732livepj",
+      "codigo": "E100-53",
+      "descripcion": "DPV SALSA SAZONADORA 110ML TERIYAKI",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 37.44,
+      "stock": 3400
+    },
+    {
+      "id": "mt-molz732ludh1u",
+      "codigo": "E100-54",
+      "descripcion": "DPV SALSA SAZONADORA 110ML HUMO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 236.9745,
+      "stock": 1076
+    },
+    {
+      "id": "mt-molz732lpy4w5",
+      "codigo": "E100-56",
+      "descripcion": "DPV SALSA SAZONADORA 110ML INGLESA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 236.9745,
+      "stock": 4772
+    },
+    {
+      "id": "mt-molz732la03go",
+      "codigo": "E100-57",
+      "descripcion": "DPV SALSA SAZONADORA 110ML SOYA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 328,
+      "stock": 17912
+    },
+    {
+      "id": "mt-molz732lbs5a5",
+      "codigo": "E100-6",
+      "descripcion": "BOLSA GALON 4 KILOS 25 *35 TRANSPARENTE SIN LOGO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 670,
+      "stock": 130
+    },
+    {
+      "id": "mt-molz732lv6yzv",
+      "codigo": "E100-70",
+      "descripcion": "BOLSA FONDO DORADO 30*45CM",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 1372.269,
+      "stock": 4134
+    },
+    {
+      "id": "mt-molz732lqvd42",
+      "codigo": "E127",
+      "descripcion": "BOLSA DOY PACK SALSA TOMATE* 500",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 279,
+      "stock": 2244
+    },
+    {
+      "id": "mt-molz732lpnkeq",
+      "codigo": "E200-100",
+      "descripcion": "BOLSA GENERICA*4000G \"GAVIUS\"",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 4,
+      "costo_unidad": 535,
+      "stock": 4329
+    },
+    {
+      "id": "mt-molz732lzuqtm",
+      "codigo": "E200-104",
+      "descripcion": "BOLSA BBQ 1000G \"GAVIUS\"",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 318.4874,
+      "stock": 1455
+    },
+    {
+      "id": "mt-molz732lyvq1t",
+      "codigo": "E200-105",
+      "descripcion": "BOLSA DPV SALSAS GAVIUS TOMATE *1000G",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 379,
+      "stock": 25823
+    },
+    {
+      "id": "mt-molz732lhmcjc",
+      "codigo": "E200-48",
+      "descripcion": "BOLSA GENERICA*1000G \"GAVIUS\"",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 318.4881,
+      "stock": 19442
+    },
+    {
+      "id": "mt-molz732l4qzh7",
+      "codigo": "E300-04",
+      "descripcion": "BOLSA DOY PACK GENERICA GAVIUS *200G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.2,
+      "costo_unidad": 188,
+      "stock": 2577
+    },
+    {
+      "id": "mt-molz732lw85cy",
+      "codigo": "E300-05",
+      "descripcion": "BOLSA DOY PACK MAIZ GAVIUS *200G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.2,
+      "costo_unidad": 188,
+      "stock": 17373
+    },
+    {
+      "id": "mt-molz732l8vrmw",
+      "codigo": "E305",
+      "descripcion": "BOLSA PLATEADA DOY PACK CREMA CHANTILLY  * 500 G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 317,
+      "stock": 20420
+    },
+    {
+      "id": "mt-molz732lsqcaj",
+      "codigo": "E306",
+      "descripcion": "BOLSA PLATEADA DOY PACK CREMA CHANTILLY  * 1000 G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 447,
+      "stock": 30975
+    },
+    {
+      "id": "mt-molz732l4lbb3",
+      "codigo": "E308",
+      "descripcion": "BOLSA PLATEADA DOY PACK * 500 G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 317,
+      "stock": 6
+    },
+    {
+      "id": "mt-molz732lv5at4",
+      "codigo": "E310",
+      "descripcion": "BOLSA PLATEADA DOY PACK *250G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.25,
+      "costo_unidad": 239,
+      "stock": 36100
+    },
+    {
+      "id": "mt-molz732l7mv9h",
+      "codigo": "E600-11",
+      "descripcion": "BOLSA GENERICA*500G \"GAVIUS\"",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 0.5,
+      "costo_unidad": 234.4531,
+      "stock": 728
+    },
+    {
+      "id": "mt-molz732lb5log",
+      "codigo": "E600-13",
+      "descripcion": "BOLSA GAVIUS PARA  CONDIMENTOS* 500G",
+      "unidad_compra": "unidad",
+      "contenido_kg": 0.5,
+      "costo_unidad": 122,
+      "stock": 44955
+    },
+    {
+      "id": "mt-molz732li1tvv",
+      "codigo": "E600-21",
+      "descripcion": "DPV SALSA QUESO CHEDDRA *1000G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 606.7226,
+      "stock": 7446
+    },
+    {
+      "id": "mt-molz732lkku81",
+      "codigo": "E600-22",
+      "descripcion": "DPV SALSA GAVIUS MAYONESA *500G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 516,
+      "stock": 694
+    },
+    {
+      "id": "mt-molz732l2wprg",
+      "codigo": "E600-23",
+      "descripcion": "DPV SALSA GAVIUS QUESO CHEDDRA *500G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 516,
+      "stock": 7193
+    },
+    {
+      "id": "mt-molz732l7zrih",
+      "codigo": "E600-24",
+      "descripcion": "DPV SALSA GAVIUS BBQ * 500G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 516,
+      "stock": 81
+    },
+    {
+      "id": "mt-molz732lvrum5",
+      "codigo": "E700-13",
+      "descripcion": "ENVASE PET CONDIMENTERO CON TAPA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1201.6802,
+      "stock": 364
+    },
+    {
+      "id": "mt-molz732l6lvsm",
+      "codigo": "E700-2",
+      "descripcion": "ENVASE PARA PASTA CONDIMENTADA 100gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.1,
+      "costo_unidad": 231.9301,
+      "stock": 3242
+    },
+    {
+      "id": "mt-molz732l84zxw",
+      "codigo": "E700-3",
+      "descripcion": "ENVASE PARA PASTA CONDIMENTADA 250gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.25,
+      "costo_unidad": 692.4361,
+      "stock": 5172
+    },
+    {
+      "id": "mt-molz732lypsja",
+      "codigo": "E700-4",
+      "descripcion": "ENVASE PARA PASTA CONDIMENTADA 500gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 897.4787,
+      "stock": 3859
+    },
+    {
+      "id": "mt-molz732lbhevy",
+      "codigo": "E700-5",
+      "descripcion": "ENVASE PARA PASTA CONDIMENTADA 1000gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 1226.89,
+      "stock": 2546
+    },
+    {
+      "id": "mt-molz732lxwuc1",
+      "codigo": "E700-6",
+      "descripcion": "ENVASE PARA PASTA CONDIMENTADA 4000gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 4,
+      "costo_unidad": 4369.7476,
+      "stock": 436
+    },
+    {
+      "id": "mt-molz732l9sxhj",
+      "codigo": "E95",
+      "descripcion": "ENV GARRAFA 4LT NATURAL 40*43",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2823.5283,
+      "stock": 1317
+    },
+    {
+      "id": "mt-molz732l4s9y1",
+      "codigo": "MIXA193205-02",
+      "descripcion": "MIX QUIMICO SACHET TOMATE 8GR",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.008,
+      "costo_unidad": 16.6122,
+      "stock": 4778.235714
+    },
+    {
+      "id": "mt-molz732lyb84s",
+      "codigo": "MIXA1932-2",
+      "descripcion": "MIX QUIMICO SALSA CON TOMATE NV",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.1187,
+      "stock": 3908
+    },
+    {
+      "id": "mt-molz732l4m1l9",
+      "codigo": "MIXA1934-2",
+      "descripcion": "MIX QUIMICO BBQ NV",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 15.2352,
+      "stock": 4156.090873
+    },
+    {
+      "id": "mt-molz732ldcuc0",
+      "codigo": "MNPC002",
+      "descripcion": "NUEZ MOSCADA ENTERA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 128.5,
+      "stock": 50500
+    },
+    {
+      "id": "mt-molz732lycdr7",
+      "codigo": "MP1",
+      "descripcion": "AGUA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.01,
+      "stock": 9879511982.726992
+    },
+    {
+      "id": "mt-molz732lad42o",
+      "codigo": "MP10",
+      "descripcion": "AZUCAR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.605,
+      "stock": 6972753.693209
+    },
+    {
+      "id": "mt-molz732lrxdj3",
+      "codigo": "MP100",
+      "descripcion": "ALMIDON MOD-BS27,2-NCR2000",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 9,
+      "stock": 0.000002
+    },
+    {
+      "id": "mt-molz732l5m0ng",
+      "codigo": "MP101",
+      "descripcion": "GELATINA SIN SABOR* 280 BLOM",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 23.9,
+      "stock": 284.233469
+    },
+    {
+      "id": "mt-molz732lsc7vp",
+      "codigo": "MP102",
+      "descripcion": "FUMARICO ACIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.8,
+      "stock": 25000
+    },
+    {
+      "id": "mt-molz732l9i3dz",
+      "codigo": "MP105",
+      "descripcion": "INOSINATO 1+G*1KG",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 69,
+      "stock": 14941.642735
+    },
+    {
+      "id": "mt-molz732l80bc6",
+      "codigo": "MP106",
+      "descripcion": "STEVIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.26,
+      "stock": 18366.24
+    },
+    {
+      "id": "mt-molz732l6jhp2",
+      "codigo": "MP107",
+      "descripcion": "ENTURBIANTE LIQUIDO ML110EN004",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 29.775,
+      "stock": 97431.6236
+    },
+    {
+      "id": "mt-molz732lqt1vl",
+      "codigo": "MP108",
+      "descripcion": "ACIDO MALICO MP110AM039",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.8,
+      "stock": 61678.230315
+    },
+    {
+      "id": "mt-molz732l2dyur",
+      "codigo": "MP114",
+      "descripcion": "HIELO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.8751,
+      "stock": 9998126920.983917
+    },
+    {
+      "id": "mt-molz732lgpexu",
+      "codigo": "MP12",
+      "descripcion": "SORBATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.5,
+      "stock": 56074.418049
+    },
+    {
+      "id": "mt-molz732lj6mb2",
+      "codigo": "MP121",
+      "descripcion": "PIROFOSFATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 12.436,
+      "stock": 59.8
+    },
+    {
+      "id": "mt-molz732lkccgz",
+      "codigo": "MP123",
+      "descripcion": "FOSFATO MONOCALCICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.8,
+      "stock": 10382.5
+    },
+    {
+      "id": "mt-molz732laz4sq",
+      "codigo": "MP13",
+      "descripcion": "BENZOATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.3,
+      "stock": 63495.351216
+    },
+    {
+      "id": "mt-molz732l09r4w",
+      "codigo": "MP14",
+      "descripcion": "EDTA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 11.5,
+      "stock": 22721.440875
+    },
+    {
+      "id": "mt-molz732l02drf",
+      "codigo": "MP157",
+      "descripcion": "HUMO LIQUIDO P 50",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 94.4308,
+      "stock": 26494.947199
+    },
+    {
+      "id": "mt-molz732likyvq",
+      "codigo": "MP16",
+      "descripcion": "SNOFLAY 6733",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.775,
+      "stock": 437235.475249
+    },
+    {
+      "id": "mt-molz732lxhxv3",
+      "codigo": "MP167",
+      "descripcion": "ALCAPARRA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 22.409,
+      "stock": 2399.8464
+    },
+    {
+      "id": "mt-molz732lemfm3",
+      "codigo": "MP168",
+      "descripcion": "PEREJIL EN ESCAMA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 17.3,
+      "stock": 13300.214091
+    },
+    {
+      "id": "mt-molz732lh7lb2",
+      "codigo": "MP170",
+      "descripcion": "OLEO AJO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 126.8907,
+      "stock": 21743.025441
+    },
+    {
+      "id": "mt-molz732li8sts",
+      "codigo": "MP171",
+      "descripcion": "OLEO CEBOLLA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 191.5966,
+      "stock": 5374.108645
+    },
+    {
+      "id": "mt-molz732l06coa",
+      "codigo": "MP172",
+      "descripcion": "OR APIO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 163.445,
+      "stock": 4254.710217
+    },
+    {
+      "id": "mt-molz732lrwfgq",
+      "codigo": "MP173",
+      "descripcion": "OLEO CILANTRO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 194.2858,
+      "stock": 6404.31247
+    },
+    {
+      "id": "mt-molz732lnjh0e",
+      "codigo": "MP174",
+      "descripcion": "OLEO COMINO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 209.411,
+      "stock": 12432.734229
+    },
+    {
+      "id": "mt-molz732lg705q",
+      "codigo": "MP175",
+      "descripcion": "OLEO LAUREL",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 450,
+      "stock": 7351.631734
+    },
+    {
+      "id": "mt-molz732lqvbz0",
+      "codigo": "MP177",
+      "descripcion": "(AE)   OLEO TOMILLO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 191.806,
+      "stock": 2952.674229
+    },
+    {
+      "id": "mt-molz732llaz4y",
+      "codigo": "MP178",
+      "descripcion": "OLEO GRIFFITH G.A",
+      "unidad_compra": "+",
+      "contenido_kg": 1,
+      "costo_unidad": 204.71,
+      "stock": 1802.035988
+    },
+    {
+      "id": "mt-molz732lrza4y",
+      "codigo": "MP179",
+      "descripcion": "OLEO GRIFFTTH   G.B",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 171.8,
+      "stock": 1802.035988
+    },
+    {
+      "id": "mt-molz732llwtsd",
+      "codigo": "MP181",
+      "descripcion": "AE CANELA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 289.2,
+      "stock": 6478.845731
+    },
+    {
+      "id": "mt-molz732lrkz58",
+      "codigo": "MP183",
+      "descripcion": "OLEO CAPSICUM",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 197.478,
+      "stock": 4548.229792
+    },
+    {
+      "id": "mt-molz732ljj3z3",
+      "codigo": "MP185",
+      "descripcion": "HARINA DE ARROZ",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 2.347,
+      "stock": 1664999.116293
+    },
+    {
+      "id": "mt-molz732lah2ua",
+      "codigo": "MP186",
+      "descripcion": "SEMOLA DE ARROZ",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 2.64,
+      "stock": 0.472312
+    },
+    {
+      "id": "mt-molz732lz7kaa",
+      "codigo": "MP187",
+      "descripcion": "HARINA DE TERCERA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 1.4958,
+      "stock": 351550.5
+    },
+    {
+      "id": "mt-molz732ldz6yz",
+      "codigo": "MP188",
+      "descripcion": "OLEORESINS PAPRIKA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 200.42,
+      "stock": 5698.6
+    },
+    {
+      "id": "mt-molz732l86pqg",
+      "codigo": "MP194",
+      "descripcion": "TIXOSIL 38A-SC20",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 17.5,
+      "stock": 43534.684808
+    },
+    {
+      "id": "mt-molz732lt8naa",
+      "codigo": "MP20",
+      "descripcion": "CMC",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 14.8,
+      "stock": 340637.069191
+    },
+    {
+      "id": "mt-molz732l5xcb5",
+      "codigo": "MP200",
+      "descripcion": "ACIDO TARTARICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.8,
+      "stock": 29735.579307
+    },
+    {
+      "id": "mt-molz732lv26pt",
+      "codigo": "MP201",
+      "descripcion": "CANELA PARTIDA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 42,
+      "stock": 29400
+    },
+    {
+      "id": "mt-molz732lx9508",
+      "codigo": "MP201-1",
+      "descripcion": "CANELA EN POLVO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 27,
+      "stock": 1500
+    },
+    {
+      "id": "mt-molz732l1ywt1",
+      "codigo": "MP202",
+      "descripcion": "CLAVOS DE OLOR ENTERO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 43,
+      "stock": 18499.600001
+    },
+    {
+      "id": "mt-molz732l3mpyh",
+      "codigo": "MP21",
+      "descripcion": "CEBOLLA EN POLVO HACIENDA BUENA VISTA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 15,
+      "stock": 121836.507726
+    },
+    {
+      "id": "mt-molz732lyo2m4",
+      "codigo": "MP21-1",
+      "descripcion": "CEBOLLA EN POLVO CONCENTRADA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 11.2,
+      "stock": 0.262531
+    },
+    {
+      "id": "mt-molz732lglebw",
+      "codigo": "MP22",
+      "descripcion": "AJO  EN POLVO HACIENDA BUENA VISTA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 12,
+      "stock": 123659.983983
+    },
+    {
+      "id": "mt-molz732l62aax",
+      "codigo": "MP25",
+      "descripcion": "YEMA DE HUEVO EN POLVO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 46.4,
+      "stock": 43280.577898
+    },
+    {
+      "id": "mt-molz732l9jz0w",
+      "codigo": "MP27",
+      "descripcion": "HARINA DE MOSTAZA AMARILLA #1 MOLIDA 201",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 25.5,
+      "stock": 70066.494254
+    },
+    {
+      "id": "mt-molz732ljofs8",
+      "codigo": "MP3",
+      "descripcion": "ACIDO ACETICO GRADOO ALIMENTICIO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.102,
+      "stock": 339619.111851
+    },
+    {
+      "id": "mt-molz732ljioua",
+      "codigo": "MP30",
+      "descripcion": "ACEITE",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.546,
+      "stock": 135650.37967
+    },
+    {
+      "id": "mt-molz732l3nokg",
+      "codigo": "MP31",
+      "descripcion": "ALMIDON  ULTRATEX SR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 14.126,
+      "stock": 20104.050208
+    },
+    {
+      "id": "mt-molz732l8sk6q",
+      "codigo": "MP33",
+      "descripcion": "GOMA XANTA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10,
+      "stock": 64960.402686
+    },
+    {
+      "id": "mt-molz732l58x6j",
+      "codigo": "MP34",
+      "descripcion": "BHT",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 30,
+      "stock": 10862.01836
+    },
+    {
+      "id": "mt-molz732lqw1ts",
+      "codigo": "MP3432",
+      "descripcion": "COLOR CARAMELO C-11",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 6.5546,
+      "stock": 279076.440773
+    },
+    {
+      "id": "mt-molz732loe1k8",
+      "codigo": "MP35",
+      "descripcion": "GOMA GUAR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 14.4,
+      "stock": 0.119316
+    },
+    {
+      "id": "mt-molz732lg0uwi",
+      "codigo": "MP36",
+      "descripcion": "ACIDO LACTICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 9.6,
+      "stock": 9809.048473
+    },
+    {
+      "id": "mt-molz732ltdub3",
+      "codigo": "MP37",
+      "descripcion": "Metabisulfito de Sodio",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.7086,
+      "stock": 6787.891425
+    },
+    {
+      "id": "mt-molz732li7yx0",
+      "codigo": "MP4",
+      "descripcion": "ACIDO CITRICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.2,
+      "stock": 816801.245121
+    },
+    {
+      "id": "mt-molz732l1m9do",
+      "codigo": "MP40061",
+      "descripcion": "MP CALDO DE GALLINA SECRETOS",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6941,
+      "stock": 199.9635
+    },
+    {
+      "id": "mt-molz732lg9ig9",
+      "codigo": "MP4007",
+      "descripcion": "MP CONDIMENTO COMINO SECRETOS",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5395,
+      "stock": 200
+    },
+    {
+      "id": "mt-molz732lcwybt",
+      "codigo": "MP41",
+      "descripcion": "INGREDIENTE 1",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.255,
+      "stock": 746945.859016
+    },
+    {
+      "id": "mt-molz732l5weof",
+      "codigo": "mp42",
+      "descripcion": "NISINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 147.058,
+      "stock": 471.156401
+    },
+    {
+      "id": "mt-molz732lafvpb",
+      "codigo": "MP43",
+      "descripcion": "LECHE SOYA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.5,
+      "stock": 0.000028
+    },
+    {
+      "id": "mt-molz732l6cf7a",
+      "codigo": "MP48",
+      "descripcion": "BICARBONATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1.881,
+      "stock": 184026.75351
+    },
+    {
+      "id": "mt-molz732lrs7d7",
+      "codigo": "MP51",
+      "descripcion": "PVH POLVO (PROTEINA VEGETAL)",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 19,
+      "stock": 186627.170186
+    },
+    {
+      "id": "mt-molz732lmnegp",
+      "codigo": "MP53",
+      "descripcion": "SAL REFISAL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.8739,
+      "stock": 1972885.407671
+    },
+    {
+      "id": "mt-molz732lnrtl6",
+      "codigo": "MP55",
+      "descripcion": "NATAMICINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 372.303,
+      "stock": 297.952115
+    },
+    {
+      "id": "mt-molz732lao86j",
+      "codigo": "MP57",
+      "descripcion": "ACEITUNAS",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 22.409,
+      "stock": 3367.737204
+    },
+    {
+      "id": "mt-molz732lxvqpa",
+      "codigo": "MP59",
+      "descripcion": "CEBOLLA CABEZONA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 1.2949,
+      "stock": 0.08416
+    },
+    {
+      "id": "mt-molz732lmq0zx",
+      "codigo": "MP6",
+      "descripcion": "PIMIENTA MOLIDA 1612AA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 30,
+      "stock": 98701.198295
+    },
+    {
+      "id": "mt-molz732lsjovq",
+      "codigo": "MP61",
+      "descripcion": "KALISEL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.24,
+      "stock": 409145.365075
+    },
+    {
+      "id": "mt-molz732latei6",
+      "codigo": "MP62",
+      "descripcion": "CREMA DE LECHE ALSEC AL 26%",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 21.207,
+      "stock": 27999.872968
+    },
+    {
+      "id": "mt-molz732l0qso9",
+      "codigo": "MP66",
+      "descripcion": "PROPILELNGLYCOL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.6,
+      "stock": 0.259408
+    },
+    {
+      "id": "mt-molz732ly2tyg",
+      "codigo": "MP67",
+      "descripcion": "ALCOHOL ETILICO EXTRANEUTRO96%",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.25,
+      "stock": 18700
+    },
+    {
+      "id": "mt-molz732lf5y2b",
+      "codigo": "MP7",
+      "descripcion": "PIMENTON FRESCO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 3.8853,
+      "stock": 54.02058
+    },
+    {
+      "id": "mt-molz732ly7khw",
+      "codigo": "MP76",
+      "descripcion": "PECTINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 51,
+      "stock": 48613.1664
+    },
+    {
+      "id": "mt-molz732lfq7nf",
+      "codigo": "MP79",
+      "descripcion": "ALMIDON MODIFICAD ARGUS 050420",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.205,
+      "stock": 14469.47799
+    },
+    {
+      "id": "mt-molz732lmkeu3",
+      "codigo": "MP8",
+      "descripcion": "CATSUP CONDITA F5179701",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 409.046,
+      "stock": 3734.890109
+    },
+    {
+      "id": "mt-molz732lx7pir",
+      "codigo": "MP85",
+      "descripcion": "ALMIDON TEMFLO",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 8.81,
+      "stock": 0.313674
+    },
+    {
+      "id": "mt-molz732lyjsmq",
+      "codigo": "MP88",
+      "descripcion": "CARBOPOL",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 280,
+      "stock": 0.4
+    },
+    {
+      "id": "mt-molz732ljr12n",
+      "codigo": "MP9",
+      "descripcion": "GLUTAMATO MONOSODICOEN AGUJAS QUIMICA AROMATICA ANDINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.1,
+      "stock": 456210.855735
+    },
+    {
+      "id": "mt-molz732lzsx9j",
+      "codigo": "MP96",
+      "descripcion": "acido fosforico",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.8,
+      "stock": 6672.687422
+    },
+    {
+      "id": "mt-molz732lcv3fx",
+      "codigo": "MP98",
+      "descripcion": "HT INGREDIUM .050420",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 2.0168,
+      "stock": 449266.5
+    },
+    {
+      "id": "mt-molz732l51cdj",
+      "codigo": "MPA197",
+      "descripcion": "PULPA DE ZANAHORIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.2801,
+      "stock": 0.163566
+    },
+    {
+      "id": "mt-molz732lc6lq7",
+      "codigo": "MPA199",
+      "descripcion": "PULPA DE guayaba",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.1,
+      "stock": 0.000865
+    },
+    {
+      "id": "mt-molz732l5hc7n",
+      "codigo": "MPA200",
+      "descripcion": "PULPA DE FRUTAS",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.8,
+      "stock": 39493.82543
+    },
+    {
+      "id": "mt-molz732l6bzzl",
+      "codigo": "MPC0005",
+      "descripcion": "OREGANO EN POLVO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 18,
+      "stock": 39800
+    },
+    {
+      "id": "mt-molz732l7krkb",
+      "codigo": "MPC001",
+      "descripcion": "CLAVO  MOLIDO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 45,
+      "stock": 2290.685136
+    },
+    {
+      "id": "mt-molz732l1ech6",
+      "codigo": "MPC003",
+      "descripcion": "NUEZ MOSCADA MOLIDA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 70,
+      "stock": 30565.187669
+    },
+    {
+      "id": "mt-molz732lhwckq",
+      "codigo": "MPC004",
+      "descripcion": "PAPRIKA MOLIDA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 12.5,
+      "stock": 66929.15
+    },
+    {
+      "id": "mt-molz732lhkg3g",
+      "codigo": "MPC005",
+      "descripcion": "COMINO SEMILLA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 28,
+      "stock": 400
+    },
+    {
+      "id": "mt-molz732l9ybc4",
+      "codigo": "MPC006",
+      "descripcion": "OREGANO DESHIDRATADO ESCAMA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 59,
+      "stock": 61257.275
+    },
+    {
+      "id": "mt-molz732lng1c3",
+      "codigo": "MPC007",
+      "descripcion": "AJI MOLIDO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 15,
+      "stock": 18785.00562
+    },
+    {
+      "id": "mt-molz732l5qlqn",
+      "codigo": "MPC009",
+      "descripcion": "CURCUMA MOLIDA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 12.5,
+      "stock": 158953.141214
+    },
+    {
+      "id": "mt-molz732lp34jq",
+      "codigo": "MPC015",
+      "descripcion": "TOMILLO EN ESACAMA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 15,
+      "stock": 12250.02416
+    },
+    {
+      "id": "mt-molz732l6uvne",
+      "codigo": "MPC059",
+      "descripcion": "CEBOLLA CABEZONA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1.5161,
+      "stock": 61500
+    },
+    {
+      "id": "mt-molz732l1phaz",
+      "codigo": "MPC1",
+      "descripcion": "ROMERO MOLIDO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 14.7,
+      "stock": 3908.4
+    },
+    {
+      "id": "mt-molz732lon1dv",
+      "codigo": "MPC10",
+      "descripcion": "LAUREL DESHIDRATADO ESCAMA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 15,
+      "stock": 50870.581712
+    },
+    {
+      "id": "mt-molz732lfhpoe",
+      "codigo": "MPC11",
+      "descripcion": "JENGIBRE MOLIDO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 22.5,
+      "stock": 51119.163212
+    },
+    {
+      "id": "mt-molz732lr2jrb",
+      "codigo": "MPC12",
+      "descripcion": "CURRY",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 10.5,
+      "stock": 16371.297333
+    },
+    {
+      "id": "mt-molz732lvjnop",
+      "codigo": "MPC13",
+      "descripcion": "APIO MOLIDO",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 18,
+      "stock": 21458.51923
+    },
+    {
+      "id": "mt-molz732lcjhas",
+      "codigo": "MPC14",
+      "descripcion": "COMINO MOLIDO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 23,
+      "stock": 148194.775152
+    },
+    {
+      "id": "mt-molz732l98oz2",
+      "codigo": "MPC16",
+      "descripcion": "TOMILLO DESHIDRATADO MOLIDO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 16,
+      "stock": 90102.634768
+    },
+    {
+      "id": "mt-molz732l3tjsf",
+      "codigo": "MPC162",
+      "descripcion": "TOMILLO FRESCO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 6.8465,
+      "stock": 10000.085321
+    },
+    {
+      "id": "mt-molz732lm7nmx",
+      "codigo": "MPC17",
+      "descripcion": "PIMIENTA NEGRA ENTERA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 37,
+      "stock": 33500
+    },
+    {
+      "id": "mt-molz732lgdubs",
+      "codigo": "MPC18",
+      "descripcion": "CILANTRO  ESCAMA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 27,
+      "stock": 25623.405713
+    },
+    {
+      "id": "mt-molz732lcpn67",
+      "codigo": "MPC19",
+      "descripcion": "COMINO SABOR POLVO PICOLINNI",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 94.81,
+      "stock": 4111
+    },
+    {
+      "id": "mt-molz732ldrsml",
+      "codigo": "MPC20",
+      "descripcion": "ALBAHACA   ESCAMA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 13.5,
+      "stock": 33164
+    },
+    {
+      "id": "mt-molz732l71hdc",
+      "codigo": "MPC21",
+      "descripcion": "LAUREL EN POLVO",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 23,
+      "stock": 4437.252164
+    },
+    {
+      "id": "mt-molz732l7y268",
+      "codigo": "MPC22",
+      "descripcion": "CILANTRO FRESCO",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 3.3614,
+      "stock": 1500.006675
+    },
+    {
+      "id": "mt-molz732l6nmou",
+      "codigo": "MPO100-12",
+      "descripcion": "LAMINADO SOBRE SALSA DE TOMATE DE 6G EMP",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.006,
+      "costo_unidad": 24.7412,
+      "stock": 0.3312
+    },
+    {
+      "id": "mt-molz732lril4q",
+      "codigo": "MPO164",
+      "descripcion": "VANA MONTE",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 20.5882,
+      "stock": 0.35493
+    },
+    {
+      "id": "mt-molz732l5j3d0",
+      "codigo": "MPO167",
+      "descripcion": "AGENTE DE BATIDO REF:LP1416-018",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 26.5,
+      "stock": 3377499.832577
+    },
+    {
+      "id": "mt-molz732l3jdbx",
+      "codigo": "SL005",
+      "descripcion": "SABOR LIQUIDO PANELA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 64.1,
+      "stock": 0.003624
+    },
+    {
+      "id": "mt-molz732lgauea",
+      "codigo": "SL013",
+      "descripcion": "SABORIZANTE  SABOR MANZANA SL330",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 20,
+      "stock": 3303
+    },
+    {
+      "id": "mt-molz732lp5mqi",
+      "codigo": "SL015",
+      "descripcion": "SABOR MAYONESA 405261",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 69,
+      "stock": 24499.9029
+    },
+    {
+      "id": "mt-molz732l1cmpa",
+      "codigo": "SL1002",
+      "descripcion": "CEREZA GELATINA SL430CE548",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 17.53,
+      "stock": 0.000002
+    },
+    {
+      "id": "mt-molz732lpnszm",
+      "codigo": "SL1020",
+      "descripcion": "TOMATE SABOR LIQUIDO AL330TO045",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 50.14,
+      "stock": 15600.239859
+    },
+    {
+      "id": "mt-molz732mgflwi",
+      "codigo": "SL1021",
+      "descripcion": "KETCHUP SABOR LIQUIDO AL320KE049",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 41.393,
+      "stock": 12679.648455
+    },
+    {
+      "id": "mt-molz732m4x692",
+      "codigo": "SL111",
+      "descripcion": "NARANJA 5 FOLD",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 285,
+      "stock": 0.012236
+    },
+    {
+      "id": "mt-molz732mvkb6z",
+      "codigo": "SL144",
+      "descripcion": "MIEL SABOR LIQUIDO SL330MI545",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 94.79,
+      "stock": 15710.705121
+    },
+    {
+      "id": "mt-molz732mvq4eh",
+      "codigo": "SL158",
+      "descripcion": "BBQ LIQUIDO AL330BA039 SABOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 37.83,
+      "stock": 32016.233825
+    },
+    {
+      "id": "mt-molz732mvw3xl",
+      "codigo": "SL171",
+      "descripcion": "MORA SABOR LIQUIDO SL330MO442",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 11.06,
+      "stock": 0.130397
+    },
+    {
+      "id": "mt-molz732moigb0",
+      "codigo": "SL173",
+      "descripcion": "MARACUYA ACO 14527 SABORIZANTE LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 96.9956,
+      "stock": 0.480024
+    },
+    {
+      "id": "mt-molz732maixad",
+      "codigo": "SL2002",
+      "descripcion": "CEREZA MADURA  SL 330CE064",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.05,
+      "stock": 533.5
+    },
+    {
+      "id": "mt-molz732m48g9j",
+      "codigo": "SL2004",
+      "descripcion": "SALSA TARTARA SABOR LIQ AL330ST048",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 95.57,
+      "stock": 5000.0001
+    },
+    {
+      "id": "mt-molz732mztfbl",
+      "codigo": "SL2005",
+      "descripcion": "CARAMELO LIQUIDO C-11 COLOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.8,
+      "stock": 250000.000026
+    },
+    {
+      "id": "mt-molz732mf4yza",
+      "codigo": "SL2008",
+      "descripcion": "SABOR LIQUIDO SALSA ROSADA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 69.27,
+      "stock": 35454.98788
+    },
+    {
+      "id": "mt-molz732m6zbvc",
+      "codigo": "SL201",
+      "descripcion": "LECHE CONDENSADA ESENCIA DISAROMAS 1011706",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8.879,
+      "stock": 0.000003
+    },
+    {
+      "id": "mt-molz732mvguip",
+      "codigo": "SL202",
+      "descripcion": "SALSA SOYA AL330SS105",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 100.49,
+      "stock": 18573.313812
+    },
+    {
+      "id": "mt-molz732mutp1o",
+      "codigo": "SL206",
+      "descripcion": "ESENCIA  SALSA CARNES AL330SC106",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 30.35,
+      "stock": 37349.918594
+    },
+    {
+      "id": "mt-molz732mwqv2y",
+      "codigo": "SL215",
+      "descripcion": "SALSA TERIYAKI AL330ST102",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 45.49,
+      "stock": 26035.097142
+    },
+    {
+      "id": "mt-molz732mlilbc",
+      "codigo": "SL216",
+      "descripcion": "SALSA CHINA AL330SCC103",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 32.24,
+      "stock": 21260.140476
+    },
+    {
+      "id": "mt-molz732mfatte",
+      "codigo": "SL217",
+      "descripcion": "INGLESA AL330SCC104",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 32.24,
+      "stock": 28371.837126
+    },
+    {
+      "id": "mt-molz732m4pysr",
+      "codigo": "SL36",
+      "descripcion": "MOSTAZA SABOR LIQUIDO AL330MO187",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 111.01,
+      "stock": 7599.968944
+    },
+    {
+      "id": "mt-molz732mxqhgh",
+      "codigo": "SP014",
+      "descripcion": "SABOR CARNE  PARRILLA FCA 17781",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 45.8609,
+      "stock": 3747.03068
+    },
+    {
+      "id": "mt-molz732m9ipmn",
+      "codigo": "SP015",
+      "descripcion": "SABOR GALLINA FCA15695",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 71,
+      "stock": 592.021235
+    },
+    {
+      "id": "mt-molz732mr1al0",
+      "codigo": "SP016",
+      "descripcion": "SABOR JAMON AHUMADO FCA 17342",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 98.9,
+      "stock": 10506.824677
+    },
+    {
+      "id": "mt-molz732m988tl",
+      "codigo": "SP017",
+      "descripcion": "SABOR POLLO FCA 16908",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 46.6,
+      "stock": 3476.391551
+    },
+    {
+      "id": "mt-molz732mttm6r",
+      "codigo": "SP18",
+      "descripcion": "COSTILLA FCA 20058",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 81.3213,
+      "stock": 16875.801782
+    },
+    {
+      "id": "mt-molz732mcmzzf",
+      "codigo": "SP6",
+      "descripcion": "SAZONADOR DE QUESO SNACK-CH-10",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 22.183,
+      "stock": 300060.35
+    },
+    {
+      "id": "mt-molz732mdfcwg",
+      "codigo": "SP62",
+      "descripcion": "POLVO ROJO Nº 40 PT",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 56.4,
+      "stock": 8870.180157
+    },
+    {
+      "id": "mt-molz732msmqtm",
+      "codigo": "SP66",
+      "descripcion": "SABOR MAIZ LIQUIDO 405544",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 68,
+      "stock": 38500.051084
+    },
+    {
+      "id": "mt-molz732mf0e6p",
+      "codigo": "SP67",
+      "descripcion": "SABOR GUACAMOLE POLVO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 47.39,
+      "stock": 7090.011686
+    },
+    {
+      "id": "mt-molz732ml01ij",
+      "codigo": "SP68",
+      "descripcion": "NUCLEO SALSA MAIZ DULCE",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 26.062,
+      "stock": 36000.307899
+    },
+    {
+      "id": "mt-molz732mbor1h",
+      "codigo": "SP81",
+      "descripcion": "AZORRUBINA PT ROJO Nª 3",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 59.2,
+      "stock": 21963.60513
+    },
+    {
+      "id": "mt-molz732mj5ilg",
+      "codigo": "SPO019",
+      "descripcion": "SABOR POLLO BROASTER REF:FCA18555 CBM",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 80.2022,
+      "stock": 15709.520208
+    },
+    {
+      "id": "mt-molz732m8nkz9",
+      "codigo": "COL005",
+      "descripcion": "CLOR ROJO PUNZO 4R CABARRIA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 35.55,
+      "stock": 0.35744
+    },
+    {
+      "id": "mt-molz732m8qx7p",
+      "codigo": "COL006",
+      "descripcion": "COLOR TARTACINA( cabarria)",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 25.15,
+      "stock": 0.472821
+    },
+    {
+      "id": "mt-molz732med60h",
+      "codigo": "COL186",
+      "descripcion": "COLOR NEGRO PLUS TUSKA CABARRIA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 67.2,
+      "stock": 0.3
+    },
+    {
+      "id": "mt-molz732mjibek",
+      "codigo": "COL201",
+      "descripcion": "LACA AMARRILLO TARTRACINA No 6",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 43,
+      "stock": 0.093043
+    },
+    {
+      "id": "mt-molz732mp7xwu",
+      "codigo": "MP105",
+      "descripcion": "INOSINATO 1+G*1KG",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 69,
+      "stock": 0.252345
+    },
+    {
+      "id": "mt-molz732mxwlc4",
+      "codigo": "MP120",
+      "descripcion": "EXTRACTO DE LEVADURA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 23.2245,
+      "stock": 0.213069
+    },
+    {
+      "id": "mt-molz732m73s9o",
+      "codigo": "MP13",
+      "descripcion": "BENZOATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.3,
+      "stock": 0.007643
+    },
+    {
+      "id": "mt-molz732m2lhxa",
+      "codigo": "MP157",
+      "descripcion": "HUMO LIQUIDO P 50",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 94.4308,
+      "stock": 0.010505
+    },
+    {
+      "id": "mt-molz732mibf10",
+      "codigo": "MP171",
+      "descripcion": "OLEO CEBOLLA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 191.5966,
+      "stock": 0.200228
+    },
+    {
+      "id": "mt-molz732m0fe6l",
+      "codigo": "MP174",
+      "descripcion": "OLEO COMINO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 209.411,
+      "stock": 0.378741
+    },
+    {
+      "id": "mt-molz732muwyss",
+      "codigo": "MP177",
+      "descripcion": "(AE)   OLEO TOMILLO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 191.806,
+      "stock": 0.015912
+    },
+    {
+      "id": "mt-molz732m56gch",
+      "codigo": "MP181",
+      "descripcion": "AE CANELA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 289.2,
+      "stock": 0.228854
+    },
+    {
+      "id": "mt-molz732ma8w27",
+      "codigo": "MP185",
+      "descripcion": "HARINA DE ARROZ",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 2.347,
+      "stock": 0.043122
+    },
+    {
+      "id": "mt-molz732m2dphw",
+      "codigo": "MP187",
+      "descripcion": "HARINA DE TERCERA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 1.4958,
+      "stock": 0.268085
+    },
+    {
+      "id": "mt-molz732msi7df",
+      "codigo": "MP22",
+      "descripcion": "AJO  EN POLVO HACIENDA BUENA VISTA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 12,
+      "stock": 0.130569
+    },
+    {
+      "id": "mt-molz732mo6r44",
+      "codigo": "MP22-1",
+      "descripcion": "AJO  EN POLVO CONCENTRADDO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 13.8,
+      "stock": 0.173355
+    },
+    {
+      "id": "mt-molz732m22o29",
+      "codigo": "MP30",
+      "descripcion": "ACEITE",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.546,
+      "stock": 0.276072
+    },
+    {
+      "id": "mt-molz732mqsxvl",
+      "codigo": "MP4",
+      "descripcion": "ACIDO CITRICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.2,
+      "stock": 0.4
+    },
+    {
+      "id": "mt-molz732m2bfo6",
+      "codigo": "MP48",
+      "descripcion": "BICARBONATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1.881,
+      "stock": 0.41988
+    },
+    {
+      "id": "mt-molz732mcn165",
+      "codigo": "MP51",
+      "descripcion": "PVH POLVO (PROTEINA VEGETAL)",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 19,
+      "stock": 0.14753
+    },
+    {
+      "id": "mt-molz732m8md12",
+      "codigo": "MP53",
+      "descripcion": "SAL REFISAL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.8739,
+      "stock": 0.07097
+    },
+    {
+      "id": "mt-molz732mv3yxo",
+      "codigo": "MP6",
+      "descripcion": "PIMIENTA MOLIDA 1612AA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 30,
+      "stock": 0.169922
+    },
+    {
+      "id": "mt-molz732mhp5i4",
+      "codigo": "MP76",
+      "descripcion": "PECTINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 51,
+      "stock": 0.001161
+    },
+    {
+      "id": "mt-molz732mqk5b8",
+      "codigo": "MP79",
+      "descripcion": "ALMIDON MODIFICAD ARGUS 050420",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.205,
+      "stock": 0.398272
+    },
+    {
+      "id": "mt-molz732m7h2ip",
+      "codigo": "MPC002",
+      "descripcion": "NUEZ MOSCADA ENTERA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 128.5,
+      "stock": 0.02
+    },
+    {
+      "id": "mt-molz732mg9krk",
+      "codigo": "MPC003",
+      "descripcion": "NUEZ MOSCADA MOLIDA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 70,
+      "stock": 0.395917
+    },
+    {
+      "id": "mt-molz732mjvkdx",
+      "codigo": "MPC004",
+      "descripcion": "PAPRIKA MOLIDA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 12.5,
+      "stock": 0.077539
+    },
+    {
+      "id": "mt-molz732mr2mha",
+      "codigo": "MPC007",
+      "descripcion": "AJI MOLIDO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 15,
+      "stock": 0.445966
+    },
+    {
+      "id": "mt-molz732m7gruo",
+      "codigo": "MPC008",
+      "descripcion": "CILANTRO MOLIDO",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 24.0776,
+      "stock": 0.337252
+    },
+    {
+      "id": "mt-molz732mmsa7f",
+      "codigo": "MPC10",
+      "descripcion": "LAUREL DESHIDRATADO ESCAMA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 15,
+      "stock": 0.463748
+    },
+    {
+      "id": "mt-molz732mxzl2l",
+      "codigo": "MPC11",
+      "descripcion": "JENGIBRE MOLIDO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 22.5,
+      "stock": 0.444568
+    },
+    {
+      "id": "mt-molz732mp3pfh",
+      "codigo": "MPC12",
+      "descripcion": "CURRY",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 10.5,
+      "stock": 0.239207
+    },
+    {
+      "id": "mt-molz732mw8k5s",
+      "codigo": "MPC13",
+      "descripcion": "APIO MOLIDO",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 18,
+      "stock": 0.155498
+    },
+    {
+      "id": "mt-molz732mz1nm6",
+      "codigo": "MPC17",
+      "descripcion": "PIMIENTA NEGRA ENTERA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 37,
+      "stock": 0.378663
+    },
+    {
+      "id": "mt-molz732mve703",
+      "codigo": "MPC20",
+      "descripcion": "ALBAHACA   ESCAMA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 13.5,
+      "stock": 0.2
+    },
+    {
+      "id": "mt-molz732mr78h2",
+      "codigo": "MPC21",
+      "descripcion": "LAUREL EN POLVO",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 23,
+      "stock": 0.234303
+    },
+    {
+      "id": "mt-molz732mar47z",
+      "codigo": "SL188",
+      "descripcion": "FRESA  MEX-FRE312037 SABORIZANTE LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.4033,
+      "stock": 0.2
+    },
+    {
+      "id": "mt-molz732m17t6c",
+      "codigo": "SL206",
+      "descripcion": "ESENCIA  SALSA CARNES AL330SC106",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 30.35,
+      "stock": 0.363453
+    },
+    {
+      "id": "mt-molz732mkuxgq",
+      "codigo": "SP014",
+      "descripcion": "SABOR CARNE  PARRILLA FCA 17781",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 45.8609,
+      "stock": 0.429768
+    },
+    {
+      "id": "mt-molz732m0nanq",
+      "codigo": "COL001",
+      "descripcion": "ROJO PONCEAU CP110RP004",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 57.3,
+      "stock": 8062.942549
+    },
+    {
+      "id": "mt-molz732mkr97t",
+      "codigo": "COL002",
+      "descripcion": "ROJO CARMOISINA CP110RC003",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 90.09,
+      "stock": 3270.297638
+    },
+    {
+      "id": "mt-molz732mts3c4",
+      "codigo": "COL005",
+      "descripcion": "CLOR ROJO PUNZO 4R CABARRIA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 35.55,
+      "stock": 994.337356
+    },
+    {
+      "id": "mt-molz732mxngou",
+      "codigo": "COL006",
+      "descripcion": "COLOR TARTACINA( cabarria)",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 25.15,
+      "stock": 25355.50947
+    },
+    {
+      "id": "mt-molz732mmhjhy",
+      "codigo": "COL020",
+      "descripcion": "LACA ROJO No 40",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 115.5,
+      "stock": 3977.285513
+    },
+    {
+      "id": "mt-molz732msbzrz",
+      "codigo": "COL114",
+      "descripcion": "ROJO FRESA CP130RF003",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 70.69,
+      "stock": 5928.334158
+    },
+    {
+      "id": "mt-molz732mpq2a5",
+      "codigo": "COL172",
+      "descripcion": "UVA CP130UV001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 84.62,
+      "stock": 6487.26626
+    },
+    {
+      "id": "mt-molz732mqy6lk",
+      "codigo": "COL177",
+      "descripcion": "COLOR # 1 AZUL CP130AZ007",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 51,
+      "stock": 15639.955866
+    },
+    {
+      "id": "mt-molz732ml90sn",
+      "codigo": "COL180",
+      "descripcion": "BROWN COLOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 42,
+      "stock": 18116.076
+    },
+    {
+      "id": "mt-molz732mx7ll2",
+      "codigo": "COL181",
+      "descripcion": "DIOXIDO titanio COLOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 13.8,
+      "stock": 69861.050899
+    },
+    {
+      "id": "mt-molz732m0h3o2",
+      "codigo": "COL182",
+      "descripcion": "VERDE MENTA CP120VM003",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 93.57,
+      "stock": 10122.048367
+    },
+    {
+      "id": "mt-molz732mkbpmg",
+      "codigo": "COL184",
+      "descripcion": "CARAMELO LIQUIDO AP-2000-V COLOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.9,
+      "stock": 42052.058341
+    },
+    {
+      "id": "mt-molz732mpr1nf",
+      "codigo": "COL201",
+      "descripcion": "LACA AMARRILLO TARTRACINA No 6",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 43,
+      "stock": 1872.59143
+    },
+    {
+      "id": "mt-molz732ms1ogu",
+      "codigo": "COL202",
+      "descripcion": "LACA AZUL BRILLANTE AZUL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 58.1,
+      "stock": 3394.140732
+    },
+    {
+      "id": "mt-molz732m14w4r",
+      "codigo": "COL50",
+      "descripcion": "NARANJA No 6 CP110NA001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 38.6,
+      "stock": 9681.59145
+    },
+    {
+      "id": "mt-molz732mqcxvl",
+      "codigo": "COL51",
+      "descripcion": "LACA AMARRILLO SUNSET No 6",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 52.3,
+      "stock": 2427.962445
+    },
+    {
+      "id": "mt-molz732mpm9os",
+      "codigo": "COL75",
+      "descripcion": "CARAMELO POLVO CP130CA004",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 27,
+      "stock": 4680
+    },
+    {
+      "id": "mt-molz732mp0iiu",
+      "codigo": "COL84",
+      "descripcion": "MORA ESPECIAL CP130ME004",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 68.12,
+      "stock": 5400.605333
+    },
+    {
+      "id": "mt-molz732mhldci",
+      "codigo": "COM003",
+      "descripcion": "AJONJOLI IMPORTADO * 25000G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 25,
+      "costo_unidad": 9.7479,
+      "stock": 38670.4266
+    },
+    {
+      "id": "mt-molz732mlwm3s",
+      "codigo": "MP10",
+      "descripcion": "AZUCAR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.605,
+      "stock": 18254.706723
+    },
+    {
+      "id": "mt-molz732ms6xjh",
+      "codigo": "MP101",
+      "descripcion": "GELATINA SIN SABOR* 280 BLOM",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 23.9,
+      "stock": 1565.804776
+    },
+    {
+      "id": "mt-molz732mz6xuc",
+      "codigo": "MP102",
+      "descripcion": "FUMARICO ACIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.8,
+      "stock": 34993.867302
+    },
+    {
+      "id": "mt-molz732muqyhx",
+      "codigo": "MP106",
+      "descripcion": "STEVIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.26,
+      "stock": 3524.256898
+    },
+    {
+      "id": "mt-molz732mo8rzs",
+      "codigo": "MP108",
+      "descripcion": "ACIDO MALICO MP110AM039",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.8,
+      "stock": 41494
+    },
+    {
+      "id": "mt-molz732mcm02q",
+      "codigo": "MP12",
+      "descripcion": "SORBATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.5,
+      "stock": 183717.556111
+    },
+    {
+      "id": "mt-molz732mgj6nu",
+      "codigo": "MP122",
+      "descripcion": "Tripolifosfato de Sodio",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.4,
+      "stock": 69381.515232
+    },
+    {
+      "id": "mt-molz732m12jvs",
+      "codigo": "MP13",
+      "descripcion": "BENZOATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.3,
+      "stock": 152120.759897
+    },
+    {
+      "id": "mt-molz732mcgwtf",
+      "codigo": "MP14",
+      "descripcion": "EDTA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 11.5,
+      "stock": 33226.170467
+    },
+    {
+      "id": "mt-molz732mw21lc",
+      "codigo": "MP192",
+      "descripcion": "SEMILLA DE AMAPOLA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 40,
+      "stock": 31690.829017
+    },
+    {
+      "id": "mt-molz732mmvvc2",
+      "codigo": "MP20",
+      "descripcion": "CMC",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 14.8,
+      "stock": 198124.07535
+    },
+    {
+      "id": "mt-molz732mwflci",
+      "codigo": "MP200",
+      "descripcion": "ACIDO TARTARICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.8,
+      "stock": 47922
+    },
+    {
+      "id": "mt-molz732m8rchc",
+      "codigo": "MP21",
+      "descripcion": "CEBOLLA EN POLVO HACIENDA BUENA VISTA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 15,
+      "stock": 1518.8849
+    },
+    {
+      "id": "mt-molz732mhvkq3",
+      "codigo": "MP33",
+      "descripcion": "GOMA XANTA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10,
+      "stock": 48639.719206
+    },
+    {
+      "id": "mt-molz732mbokzk",
+      "codigo": "MP34",
+      "descripcion": "BHT",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 30,
+      "stock": 22339.479202
+    },
+    {
+      "id": "mt-molz732mlv0lc",
+      "codigo": "MP38",
+      "descripcion": "LECITINA DE SOYA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.8,
+      "stock": 277299.897867
+    },
+    {
+      "id": "mt-molz732modli6",
+      "codigo": "MP4",
+      "descripcion": "ACIDO CITRICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.2,
+      "stock": 30698.936239
+    },
+    {
+      "id": "mt-molz732mt3xdt",
+      "codigo": "MP41",
+      "descripcion": "INGREDIENTE 1",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.255,
+      "stock": 50000
+    },
+    {
+      "id": "mt-molz732m9s88u",
+      "codigo": "mp42",
+      "descripcion": "NISINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 147.058,
+      "stock": 13981.866705
+    },
+    {
+      "id": "mt-molz732mzan91",
+      "codigo": "mp42-1",
+      "descripcion": "NISINA AGROLECHERO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 235,
+      "stock": 0.175648
+    },
+    {
+      "id": "mt-molz732mruqqq",
+      "codigo": "MP47",
+      "descripcion": "ENTURBIANTE MP110EN001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 18.8,
+      "stock": 26499.999467
+    },
+    {
+      "id": "mt-molz732mcmwiu",
+      "codigo": "MP48",
+      "descripcion": "BICARBONATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1.881,
+      "stock": 100199.349263
+    },
+    {
+      "id": "mt-molz732m2w801",
+      "codigo": "MP49",
+      "descripcion": "CITRATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.7,
+      "stock": 38345.242186
+    },
+    {
+      "id": "mt-molz732meq8wy",
+      "codigo": "MP53",
+      "descripcion": "SAL REFISAL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.8739,
+      "stock": 33661.62062
+    },
+    {
+      "id": "mt-molz732mra4ow",
+      "codigo": "MP55",
+      "descripcion": "NATAMICINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 372.303,
+      "stock": 11091.64166
+    },
+    {
+      "id": "mt-molz732m4d55n",
+      "codigo": "MP6",
+      "descripcion": "PIMIENTA MOLIDA 1612AA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 30,
+      "stock": 232.25776
+    },
+    {
+      "id": "mt-molz732mvd1nn",
+      "codigo": "MP63",
+      "descripcion": "GLUCONATO DE CALCIO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10,
+      "stock": 63139.642298
+    },
+    {
+      "id": "mt-molz732mbav77",
+      "codigo": "MP65",
+      "descripcion": "ETIL VAINILLINA POLVO MP110EV003",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 48,
+      "stock": 27625.62017
+    },
+    {
+      "id": "mt-molz732m0nmrb",
+      "codigo": "MP66",
+      "descripcion": "PROPILELNGLYCOL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.6,
+      "stock": 920000
+    },
+    {
+      "id": "mt-molz732m512t4",
+      "codigo": "MP67",
+      "descripcion": "ALCOHOL ETILICO EXTRANEUTRO96%",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.25,
+      "stock": 160000.000028
+    },
+    {
+      "id": "mt-molz732m42o2e",
+      "codigo": "MP72",
+      "descripcion": "DIMODAN PH 300",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 22.457,
+      "stock": 64982.634148
+    },
+    {
+      "id": "mt-molz732my3m01",
+      "codigo": "MP73",
+      "descripcion": "CREMODAN S46",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 45.1,
+      "stock": 5347.976196
+    },
+    {
+      "id": "mt-molz732mi5h9p",
+      "codigo": "MP76",
+      "descripcion": "PECTINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 51,
+      "stock": 38074.018347
+    },
+    {
+      "id": "mt-molz732m9jwcx",
+      "codigo": "MP80",
+      "descripcion": "VIVAPUR HIDROXIPROPILMETILCELULOSA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 73.02,
+      "stock": 25158.501078
+    },
+    {
+      "id": "mt-molz732m4f0u2",
+      "codigo": "MP86",
+      "descripcion": "FRESWEET PLUS",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 96.696,
+      "stock": 47995.684037
+    },
+    {
+      "id": "mt-molz732m2bpfn",
+      "codigo": "MP92",
+      "descripcion": "NATA SABOR POLVO CHANTILLI",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 71.77,
+      "stock": 29584.893342
+    },
+    {
+      "id": "mt-molz732mxajyx",
+      "codigo": "MPO161",
+      "descripcion": "MOKA FI FP 80PR01",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 16,
+      "stock": 211903.583753
+    },
+    {
+      "id": "mt-molz732mleha2",
+      "codigo": "SL103",
+      "descripcion": "SABOR FRESA TIPO BOM BOM BUM SABOR LIQ",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 112.84,
+      "stock": 5000
+    },
+    {
+      "id": "mt-molz732m35uoh",
+      "codigo": "SL120",
+      "descripcion": "LECHE CONDENSADA SL120LC047 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8.88,
+      "stock": 1703.807326
+    },
+    {
+      "id": "mt-molz732m3pyoj",
+      "codigo": "SL179",
+      "descripcion": "CHOCOLATE SABOR LIQUIDO SL330CH094",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.205,
+      "stock": 12099.982091
+    },
+    {
+      "id": "mt-molz732mu0oyu",
+      "codigo": "SL2004",
+      "descripcion": "SALSA TARTARA SABOR LIQ AL330ST048",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 95.57,
+      "stock": 5000
+    },
+    {
+      "id": "mt-molz732mqgcb2",
+      "codigo": "SL203",
+      "descripcion": "CREMA DE WHISKY ESENCIA PICOLINI",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 85.32,
+      "stock": 20000
+    },
+    {
+      "id": "mt-molz732ma084v",
+      "codigo": "SL212",
+      "descripcion": "SABOR LIQUIDO CHOCOLATINA TIPO JET",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 164.05,
+      "stock": 30210.253514
+    },
+    {
+      "id": "mt-molz732m278qb",
+      "codigo": "SL213",
+      "descripcion": "SABOR LIQUIDO CHOCOLATINA BLANCO",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 89.1,
+      "stock": 9678.019203
+    },
+    {
+      "id": "mt-molz732mp2ku6",
+      "codigo": "SL217",
+      "descripcion": "INGLESA AL330SCC104",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 32.24,
+      "stock": 10000
+    },
+    {
+      "id": "mt-molz732mfhc44",
+      "codigo": "SL63",
+      "descripcion": "VAINILLA BLANCA 1013270 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 29.216,
+      "stock": 2000.017
+    },
+    {
+      "id": "mt-molz732mn6dzf",
+      "codigo": "SP001",
+      "descripcion": "FRESA SABOR ENCAPSULADO SE330FR183",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 52.581,
+      "stock": 21633.319312
+    },
+    {
+      "id": "mt-molz732m0zp1t",
+      "codigo": "SP002",
+      "descripcion": "FRAMBUESA SABOR ENCAPSULADO SE330FR182",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 48.2,
+      "stock": 19075.9268
+    },
+    {
+      "id": "mt-molz732m4gbp7",
+      "codigo": "SP003",
+      "descripcion": "CEREZA SABOR ENCAPSULADO SE330CE326",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 59.161,
+      "stock": 22566.001556
+    },
+    {
+      "id": "mt-molz732mygtni",
+      "codigo": "SP004",
+      "descripcion": "MORA SABOR ENCAPSULADO SE330MO272",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 50.391,
+      "stock": 22716.028672
+    },
+    {
+      "id": "mt-molz732mjpwij",
+      "codigo": "SP005",
+      "descripcion": "UVA SABOR ENCAPSULADO  SE330UV035",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 42.427,
+      "stock": 18290.01792
+    },
+    {
+      "id": "mt-molz732m4bke9",
+      "codigo": "SP006",
+      "descripcion": "LIMON SABOR ENCAPSULADO SE330LI152",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 48.225,
+      "stock": 20263.836452
+    },
+    {
+      "id": "mt-molz732m3jqlm",
+      "codigo": "SP007",
+      "descripcion": "MANZANA VERDE SABOR ENCAPSULADO SE330MV273",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 42.85,
+      "stock": 6558
+    },
+    {
+      "id": "mt-molz732mb7qjz",
+      "codigo": "SP008",
+      "descripcion": "MARACUYA SABOR ENCAPSULADO SE330MA268",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 47.992,
+      "stock": 11510
+    },
+    {
+      "id": "mt-molz732muw2jw",
+      "codigo": "SP009",
+      "descripcion": "PIÑA SABOR ENCAPSULADO  SE330PI127",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 32.68,
+      "stock": 20665.94924
+    },
+    {
+      "id": "mt-molz732mzj7y4",
+      "codigo": "SP010",
+      "descripcion": "DURAZNO SABOR ENCAPSULADO SE330DU036",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 66.079,
+      "stock": 16354
+    },
+    {
+      "id": "mt-molz732mme8bs",
+      "codigo": "SP011",
+      "descripcion": "NARANJA SABOR ENCAPSULADO SE330NA046",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 50.446,
+      "stock": 22352.274744
+    },
+    {
+      "id": "mt-molz732my04qf",
+      "codigo": "SP012",
+      "descripcion": "MANDARINA SABOR ENCAPSULADO SE330MA271",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 48.516,
+      "stock": 13779
+    },
+    {
+      "id": "mt-molz732mwaeq1",
+      "codigo": "SP013",
+      "descripcion": "CHICLE SABOR ENCAPSULADO SE330CH336",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 52.47,
+      "stock": 21286.007296
+    },
+    {
+      "id": "mt-molz732mayfdf",
+      "codigo": "SP62",
+      "descripcion": "POLVO ROJO Nº 40 PT",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 56.4,
+      "stock": 1184.101568
+    },
+    {
+      "id": "mt-molz732mpb1ny",
+      "codigo": "180505",
+      "descripcion": "MANGA GELATINA UVA*250G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.25,
+      "costo_unidad": 1736.2114,
+      "stock": 105
+    },
+    {
+      "id": "mt-molz732mldumy",
+      "codigo": "180610",
+      "descripcion": "MANGA GELATINA LIMON*500G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 2819.0337,
+      "stock": 362
+    },
+    {
+      "id": "mt-molz732memyvz",
+      "codigo": "181105",
+      "descripcion": "MANGA GELATINA NARANJA*250G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.25,
+      "costo_unidad": 1747.6571,
+      "stock": 100
+    },
+    {
+      "id": "mt-molz732mx9llk",
+      "codigo": "354810",
+      "descripcion": "Cobertura D'luchy Semi amarga *500g",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 0.5,
+      "costo_unidad": 3694.5167,
+      "stock": 180
+    },
+    {
+      "id": "mt-molz732mwwzq0",
+      "codigo": "354810-2",
+      "descripcion": "Caja de Cobertura D Luchy Semi Amarga 500g x 36 Unidades",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 0.5,
+      "costo_unidad": 123966.8,
+      "stock": 5
+    },
+    {
+      "id": "mt-molz732mi1nt4",
+      "codigo": "354816",
+      "descripcion": "D Luchy Cobertura Semiamarga * 2.5kg",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 2.5,
+      "costo_unidad": 17747,
+      "stock": 27
+    },
+    {
+      "id": "mt-molz732mflux4",
+      "codigo": "354816-2",
+      "descripcion": "D Luchy Cobertura Semiamarga * 2.5kg * 8 Unidades",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 2.5,
+      "costo_unidad": 138143.0556,
+      "stock": 15
+    },
+    {
+      "id": "mt-molz732m6ulz1",
+      "codigo": "355510",
+      "descripcion": "D Luchy Cobertura Blanca * 500g",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 0.5,
+      "costo_unidad": 3540.75,
+      "stock": 409
+    },
+    {
+      "id": "mt-molz732mq87s6",
+      "codigo": "355510-2",
+      "descripcion": "Caja de Cobertura D Luchy Blanca 500g x 36 Unidades",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 0.5,
+      "costo_unidad": 118430.9,
+      "stock": 2
+    },
+    {
+      "id": "mt-molz732mznrm1",
+      "codigo": "355516",
+      "descripcion": "D Luchy Cobertura Blanca * 2.5Kg",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 2.5,
+      "costo_unidad": 16256,
+      "stock": 7
+    },
+    {
+      "id": "mt-molz732md3oj1",
+      "codigo": "355610",
+      "descripcion": "D Luchy Cobertura de Leche * 500g",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 0.5,
+      "costo_unidad": 3565.7143,
+      "stock": 150
+    },
+    {
+      "id": "mt-molz732m1rnja",
+      "codigo": "355610-2",
+      "descripcion": "Caja de Cobertura D Luchy Leche 500g x 36 Unidades",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 0.5,
+      "costo_unidad": 119331.1111,
+      "stock": 18
+    },
+    {
+      "id": "mt-molz732mwpibf",
+      "codigo": "355616",
+      "descripcion": "D Luchy Cobertura de Leche * 2.5kg",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 2.5,
+      "costo_unidad": 16166,
+      "stock": 83
+    },
+    {
+      "id": "mt-molz732mjjg4w",
+      "codigo": "COL006",
+      "descripcion": "COLOR TARTACINA( cabarria)",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 25.15,
+      "stock": 3.270263
+    },
+    {
+      "id": "mt-molz732mvytvj",
+      "codigo": "COL100",
+      "descripcion": "COLOR ERYTROCINA NOVACOLOR SUPRA GRANEL",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 457.85,
+      "stock": 0.423538
+    },
+    {
+      "id": "mt-molz732mm54z1",
+      "codigo": "E100-118",
+      "descripcion": "GOTERO DE 60 ML CON TAPA SURTIDA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 294.1177,
+      "stock": 18
+    },
+    {
+      "id": "mt-molz732m2mqbg",
+      "codigo": "E100-40",
+      "descripcion": "MATERA ONDULADA ORIGINAL 5326",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 757.3,
+      "stock": 24
+    },
+    {
+      "id": "mt-molz732mi5rl9",
+      "codigo": "E100-8",
+      "descripcion": "VALDE GRANDE JHON LUGO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1764.7067,
+      "stock": 6
+    },
+    {
+      "id": "mt-molz732meaa55",
+      "codigo": "E305",
+      "descripcion": "BOLSA PLATEADA DOY PACK CREMA CHANTILLY  * 500 G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 317,
+      "stock": 3800
+    },
+    {
+      "id": "mt-molz732ma10fv",
+      "codigo": "E306",
+      "descripcion": "BOLSA PLATEADA DOY PACK CREMA CHANTILLY  * 1000 G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 447,
+      "stock": 3800
+    },
+    {
+      "id": "mt-molz732mlwv0n",
+      "codigo": "E307",
+      "descripcion": "BOLSA TRANSPARENTE FONDANT 13.5*21+7",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 294,
+      "stock": 1060
+    },
+    {
+      "id": "mt-molz732misi4k",
+      "codigo": "E309",
+      "descripcion": "BOLSA PLATEADA DOY PACK *1 KG",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 447,
+      "stock": 45
+    },
+    {
+      "id": "mt-molz732mw2ln4",
+      "codigo": "E310",
+      "descripcion": "BOLSA PLATEADA DOY PACK *250G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.25,
+      "costo_unidad": 239,
+      "stock": 2000
+    },
+    {
+      "id": "mt-molz732m56bs9",
+      "codigo": "E600-13",
+      "descripcion": "BOLSA GAVIUS PARA  CONDIMENTOS* 500G",
+      "unidad_compra": "unidad",
+      "contenido_kg": 0.5,
+      "costo_unidad": 122,
+      "stock": 24880
+    },
+    {
+      "id": "mt-molz732milcv9",
+      "codigo": "MIXA3974-1",
+      "descripcion": "MIX QUIMICO CHANTILLY",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 36.2165,
+      "stock": 299
+    },
+    {
+      "id": "mt-molz732mgzgea",
+      "codigo": "MIXC01",
+      "descripcion": "MIX QUIM COBERTURA BLANCA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 26.7608,
+      "stock": 9900
+    },
+    {
+      "id": "mt-molz732mopedb",
+      "codigo": "MIXC02",
+      "descripcion": "MIX QUIM COBERTURA LECHE",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 46.5354,
+      "stock": 23900.000048
+    },
+    {
+      "id": "mt-molz732mud2tw",
+      "codigo": "MIXC03",
+      "descripcion": "MIX QUIM COBERTURA SEMI AMARGA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 40.5013,
+      "stock": 33000
+    },
+    {
+      "id": "mt-molz732mo1tf3",
+      "codigo": "MIXF04",
+      "descripcion": "MIX QUIM FRUTA ROJA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 15.6667,
+      "stock": 0.211822
+    },
+    {
+      "id": "mt-molz732mwwfli",
+      "codigo": "MIXF53",
+      "descripcion": "MIX QUIM FRUTA AMARILLA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 14.0076,
+      "stock": 0.3086
+    },
+    {
+      "id": "mt-molz732meibsq",
+      "codigo": "MIXG1801",
+      "descripcion": "MIX QUIMICO G FRESA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 9.5637,
+      "stock": 5680
+    },
+    {
+      "id": "mt-molz732mqhic0",
+      "codigo": "MIXG1802",
+      "descripcion": "MIX QUIMICO G FRAMBUESA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.9003,
+      "stock": 8402
+    },
+    {
+      "id": "mt-molz732mjhdly",
+      "codigo": "MIXG1805",
+      "descripcion": "MIX QUIMICO G UVA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.6388,
+      "stock": 8448
+    },
+    {
+      "id": "mt-molz732m3iekl",
+      "codigo": "MIXG1806",
+      "descripcion": "MIX QUIMICO G LIMON",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8.2779,
+      "stock": 25332
+    },
+    {
+      "id": "mt-molz732m6zwsr",
+      "codigo": "MIXG1809",
+      "descripcion": "MIX QUIMICO G PIÑA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.5772,
+      "stock": 25569
+    },
+    {
+      "id": "mt-molz732m4slno",
+      "codigo": "MIXG1811",
+      "descripcion": "MIX QUIMICO G NARANJA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8.6344,
+      "stock": 2875
+    },
+    {
+      "id": "mt-molz732mx5zzb",
+      "codigo": "MP1",
+      "descripcion": "AGUA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.01,
+      "stock": 149997069036.0841
+    },
+    {
+      "id": "mt-molz732m0x04v",
+      "codigo": "MP10",
+      "descripcion": "AZUCAR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.605,
+      "stock": 893859.340937
+    },
+    {
+      "id": "mt-molz732mgbk77",
+      "codigo": "MP101",
+      "descripcion": "GELATINA SIN SABOR* 280 BLOM",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 23.9,
+      "stock": 3050749.706363
+    },
+    {
+      "id": "mt-molz732m4d7qu",
+      "codigo": "MP12",
+      "descripcion": "SORBATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.5,
+      "stock": 482.254979
+    },
+    {
+      "id": "mt-molz732mljg5n",
+      "codigo": "MP121",
+      "descripcion": "PIROFOSFATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 12.436,
+      "stock": 227900
+    },
+    {
+      "id": "mt-molz732m4s7z9",
+      "codigo": "MP125",
+      "descripcion": "COCOA EN POVO CORONA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 11.9,
+      "stock": 5091999.823641
+    },
+    {
+      "id": "mt-molz732motvvv",
+      "codigo": "MP13",
+      "descripcion": "BENZOATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.3,
+      "stock": 0.399936
+    },
+    {
+      "id": "mt-molz732m06s6u",
+      "codigo": "MP185",
+      "descripcion": "HARINA DE ARROZ",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 2.347,
+      "stock": 50250
+    },
+    {
+      "id": "mt-molz732mzjux9",
+      "codigo": "MP31",
+      "descripcion": "ALMIDON  ULTRATEX SR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 14.126,
+      "stock": 41999.660101
+    },
+    {
+      "id": "mt-molz732m7v0v8",
+      "codigo": "MP33",
+      "descripcion": "GOMA XANTA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10,
+      "stock": 0.231326
+    },
+    {
+      "id": "mt-molz732mavnh3",
+      "codigo": "MP48",
+      "descripcion": "BICARBONATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1.881,
+      "stock": 110000
+    },
+    {
+      "id": "mt-molz732m9rrsh",
+      "codigo": "mp4810",
+      "descripcion": "Bicarbonato Gavius *500g",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 0.5,
+      "costo_unidad": 1274.82,
+      "stock": 50
+    },
+    {
+      "id": "mt-molz732mpm0u3",
+      "codigo": "MP58",
+      "descripcion": "GLICERINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.6546,
+      "stock": 0.183714
+    },
+    {
+      "id": "mt-molz732maedsd",
+      "codigo": "MP66",
+      "descripcion": "PROPILELNGLYCOL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.6,
+      "stock": 0.482229
+    },
+    {
+      "id": "mt-molz732mvxayf",
+      "codigo": "MP82",
+      "descripcion": "SUERO LIQUIDO COBERTURA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.8236,
+      "stock": 350000.467961
+    },
+    {
+      "id": "mt-molz732m5ghwr",
+      "codigo": "MP9",
+      "descripcion": "GLUTAMATO MONOSODICOEN AGUJAS QUIMICA AROMATICA ANDINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.1,
+      "stock": 248000
+    },
+    {
+      "id": "mt-molz732mlnyx2",
+      "codigo": "MPC009",
+      "descripcion": "CURCUMA MOLIDA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 12.5,
+      "stock": 97500
+    },
+    {
+      "id": "mt-molz732m5o4nh",
+      "codigo": "MPO166",
+      "descripcion": "GRASA DE COBERTURA 20KG",
+      "unidad_compra": "unidad",
+      "contenido_kg": 20,
+      "costo_unidad": 11.422,
+      "stock": 2718999.861748
+    },
+    {
+      "id": "mt-molz732m8agqi",
+      "codigo": "MPO167",
+      "descripcion": "AGENTE DE BATIDO REF:LP1416-018",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 26.5,
+      "stock": 1729099.557229
+    },
+    {
+      "id": "mt-molz732m7samo",
+      "codigo": "SL212",
+      "descripcion": "SABOR LIQUIDO CHOCOLATINA TIPO JET",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 164.05,
+      "stock": 0.000308
+    },
+    {
+      "id": "mt-molz732mc86h9",
+      "codigo": "SL63",
+      "descripcion": "VAINILLA BLANCA 1013270 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 29.216,
+      "stock": 0.000011
+    },
+    {
+      "id": "mt-molz732mwkt9w",
+      "codigo": "SP81",
+      "descripcion": "AZORRUBINA PT ROJO Nª 3",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 59.2,
+      "stock": 0.056228
+    },
+    {
+      "id": "mt-molz732mw8f1z",
+      "codigo": "1001",
+      "descripcion": "ALMIDON CORRUMEZ",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.9916,
+      "stock": 0.231639
+    },
+    {
+      "id": "mt-molz732m01ijn",
+      "codigo": "COL002",
+      "descripcion": "ROJO CARMOISINA CP110RC003",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 90.09,
+      "stock": 0.488379
+    },
+    {
+      "id": "mt-molz732mucbg4",
+      "codigo": "COL006",
+      "descripcion": "COLOR TARTACINA( cabarria)",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 25.15,
+      "stock": 0.305786
+    },
+    {
+      "id": "mt-molz732m7lmle",
+      "codigo": "COL011",
+      "descripcion": "Color Amarrillo Huevo",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 22.05,
+      "stock": 0.374449
+    },
+    {
+      "id": "mt-molz732mllpwr",
+      "codigo": "COL172",
+      "descripcion": "UVA CP130UV001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 84.62,
+      "stock": 0.405761
+    },
+    {
+      "id": "mt-molz732md0se1",
+      "codigo": "COL201",
+      "descripcion": "LACA AMARRILLO TARTRACINA No 6",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 43,
+      "stock": 0.223817
+    },
+    {
+      "id": "mt-molz732mxjc3m",
+      "codigo": "COL202",
+      "descripcion": "LACA AZUL BRILLANTE AZUL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 58.1,
+      "stock": 0.036348
+    },
+    {
+      "id": "mt-molz732mw4th4",
+      "codigo": "COL51",
+      "descripcion": "LACA AMARRILLO SUNSET No 6",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 52.3,
+      "stock": 0.184744
+    },
+    {
+      "id": "mt-molz732m33m3d",
+      "codigo": "COL84",
+      "descripcion": "MORA ESPECIAL CP130ME004",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 68.12,
+      "stock": 0.263623
+    },
+    {
+      "id": "mt-molz732mcrega",
+      "codigo": "MIXG1806",
+      "descripcion": "MIX QUIMICO G LIMON",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8.2779,
+      "stock": 0.041972
+    },
+    {
+      "id": "mt-molz732mgtqnm",
+      "codigo": "MP101",
+      "descripcion": "GELATINA SIN SABOR* 280 BLOM",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 23.9,
+      "stock": 0.149262
+    },
+    {
+      "id": "mt-molz732mui2a7",
+      "codigo": "MP122",
+      "descripcion": "Tripolifosfato de Sodio",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.4,
+      "stock": 0.448138
+    },
+    {
+      "id": "mt-molz732mzqife",
+      "codigo": "MP13",
+      "descripcion": "BENZOATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.3,
+      "stock": 0.324133
+    },
+    {
+      "id": "mt-molz732mxezpw",
+      "codigo": "MP20",
+      "descripcion": "CMC",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 14.8,
+      "stock": 0.069989
+    },
+    {
+      "id": "mt-molz732m0hwu6",
+      "codigo": "MP4",
+      "descripcion": "ACIDO CITRICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.2,
+      "stock": 0.286373
+    },
+    {
+      "id": "mt-molz732ml018m",
+      "codigo": "mp78",
+      "descripcion": "LECHE EN POLVO DESCREMADA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 16.806,
+      "stock": 0.23657
+    },
+    {
+      "id": "mt-molz732mxjind",
+      "codigo": "MP80",
+      "descripcion": "VIVAPUR HIDROXIPROPILMETILCELULOSA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 73.02,
+      "stock": 0.092527
+    },
+    {
+      "id": "mt-molz732moiwz4",
+      "codigo": "SP001",
+      "descripcion": "FRESA SABOR ENCAPSULADO SE330FR183",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 52.581,
+      "stock": 0.271808
+    },
+    {
+      "id": "mt-molz732mosfm2",
+      "codigo": "SP002",
+      "descripcion": "FRAMBUESA SABOR ENCAPSULADO SE330FR182",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 48.2,
+      "stock": 0.366438
+    },
+    {
+      "id": "mt-molz732mr244t",
+      "codigo": "SP003",
+      "descripcion": "CEREZA SABOR ENCAPSULADO SE330CE326",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 59.161,
+      "stock": 0.042534
+    },
+    {
+      "id": "mt-molz732mbglqy",
+      "codigo": "SP004",
+      "descripcion": "MORA SABOR ENCAPSULADO SE330MO272",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 50.391,
+      "stock": 0.099463
+    },
+    {
+      "id": "mt-molz732ms4s4v",
+      "codigo": "SP006",
+      "descripcion": "LIMON SABOR ENCAPSULADO SE330LI152",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 48.225,
+      "stock": 0.33413
+    },
+    {
+      "id": "mt-molz732m18jpf",
+      "codigo": "SP009",
+      "descripcion": "PIÑA SABOR ENCAPSULADO  SE330PI127",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 32.68,
+      "stock": 0.374015
+    },
+    {
+      "id": "mt-molz732mhtl4k",
+      "codigo": "SP013",
+      "descripcion": "CHICLE SABOR ENCAPSULADO SE330CH336",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 52.47,
+      "stock": 0.427865
+    },
+    {
+      "id": "mt-molz732md03zo",
+      "codigo": "113913",
+      "descripcion": "MATERA MANJAR BLANCO ARTESANO - HORNEO - * 930G",
+      "unidad_compra": "unidad",
+      "contenido_kg": 0.93,
+      "costo_unidad": 3495.4519,
+      "stock": 289
+    },
+    {
+      "id": "mt-molz732midxi1",
+      "codigo": "113919",
+      "descripcion": "GALON MANJAR BLANCO ARTESANO - HORNEO- * 4000 G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 4,
+      "costo_unidad": 17283.6987,
+      "stock": 1117
+    },
+    {
+      "id": "mt-molz732me3wfg",
+      "codigo": "113920",
+      "descripcion": "MANJAR BLANCO ARTESANO - HORNEO - * 22 KG",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 22,
+      "costo_unidad": 71236.125,
+      "stock": 35
+    },
+    {
+      "id": "mt-molz732m7s40d",
+      "codigo": "113922",
+      "descripcion": "BOLSA COJIN MANJAR BLANCO ARTESANO - HORNEO- * 1000G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 3751.4067,
+      "stock": 340
+    },
+    {
+      "id": "mt-molz732m6w96e",
+      "codigo": "114013",
+      "descripcion": "MATERA MANJAR BLANCO ARTESANO - RELLENO - * 930G",
+      "unidad_compra": "gramos",
+      "contenido_kg": 0.93,
+      "costo_unidad": 3390.2054,
+      "stock": 1732
+    },
+    {
+      "id": "mt-molz732mm1409",
+      "codigo": "114019",
+      "descripcion": "GALON MANJAR BLANCO ARTESANO - RELLENO - * 4000 G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 4,
+      "costo_unidad": 15242.1098,
+      "stock": 1332
+    },
+    {
+      "id": "mt-molz732ms9f3v",
+      "codigo": "114020",
+      "descripcion": "MANJAR BLANCO ARTESANO - RELLENO - * 22 KG",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 22,
+      "costo_unidad": 68344.1,
+      "stock": 39
+    },
+    {
+      "id": "mt-molz732ms6h6e",
+      "codigo": "114022",
+      "descripcion": "BOLSA COJIN MANJAR BLANCO ARTESANO - RELLENO - * 1000G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 3356.7725,
+      "stock": 903
+    },
+    {
+      "id": "mt-molz732maxvt3",
+      "codigo": "114110-3",
+      "descripcion": "MANJAR BLANCO DULÉ DOY PACK *500GR * 4UN",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 8429.712,
+      "stock": 1
+    },
+    {
+      "id": "mt-molz732m2dhmc",
+      "codigo": "114112",
+      "descripcion": "Manjar Blanco Dulé Tipo Blando *900G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.9,
+      "costo_unidad": 4533.155,
+      "stock": 99
+    },
+    {
+      "id": "mt-molz732m8brgg",
+      "codigo": "115005-3",
+      "descripcion": "MANJAR BLANCO DULÉ DOY PACK *250GR * 6UN",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.25,
+      "costo_unidad": 6877.8784,
+      "stock": 1
+    },
+    {
+      "id": "mt-molz732m47wwh",
+      "codigo": "115019",
+      "descripcion": "GALON MANJAR BLANCO DULÉ * 4200G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 4.2,
+      "costo_unidad": 16654.2793,
+      "stock": 149
+    },
+    {
+      "id": "mt-molz732mf08vj",
+      "codigo": "122602-3",
+      "descripcion": "Dulce Lacteo Leche Condensada Secretos del Trópico Doypack-*100G * 6 un",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 0.1,
+      "costo_unidad": 2766.0976,
+      "stock": 13
+    },
+    {
+      "id": "mt-molz732mqfsk7",
+      "codigo": "122605-3",
+      "descripcion": "Dulce Lacteo Leche Condensada Secretos del Trópico Doypack-*250G * 6un",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 0.25,
+      "costo_unidad": 5519.6834,
+      "stock": 5
+    },
+    {
+      "id": "mt-molz732m0png3",
+      "codigo": "122614",
+      "descripcion": "Dulce Lacteo Leche Condensada Secretos del Trópico PROM* 1300G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1.3,
+      "costo_unidad": 5197.9937,
+      "stock": 12
+    },
+    {
+      "id": "mt-molz732mmgv9n",
+      "codigo": "122615",
+      "descripcion": "Dulce Lacteo Leche Condensada Secretos del Trópico PROM* 2600G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 2.6,
+      "costo_unidad": 9123.5714,
+      "stock": 3
+    },
+    {
+      "id": "mt-molz732mw9qsl",
+      "codigo": "122618",
+      "descripcion": "Dulce Lacteo Leche Condensada Secretos del Trópico PROM *4800G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 4.8,
+      "costo_unidad": 17813.0857,
+      "stock": 135
+    },
+    {
+      "id": "mt-molz732m51hau",
+      "codigo": "122622",
+      "descripcion": "Dulce Lacteo Leche Condensada Secretos del Trópico - Doypack-  * 1000G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 3755.2136,
+      "stock": 749
+    },
+    {
+      "id": "mt-molz732mma5n0",
+      "codigo": "163210",
+      "descripcion": "SYROPE DOLCE SABOR A CARAMELO *600G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.6,
+      "costo_unidad": 2856.8607,
+      "stock": 200
+    },
+    {
+      "id": "mt-molz732ms20cl",
+      "codigo": "COL181",
+      "descripcion": "DIOXIDO titanio COLOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 13.8,
+      "stock": 0.000033
+    },
+    {
+      "id": "mt-molz732m7l54g",
+      "codigo": "COL84",
+      "descripcion": "MORA ESPECIAL CP130ME004",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 68.12,
+      "stock": 0.000002
+    },
+    {
+      "id": "mt-molz732mxg0f1",
+      "codigo": "COM003",
+      "descripcion": "AJONJOLI IMPORTADO * 25000G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 25,
+      "costo_unidad": 9.7479,
+      "stock": 0.000004
+    },
+    {
+      "id": "mt-molz732m35cry",
+      "codigo": "E10",
+      "descripcion": "GARRAFA*3600g",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 3.6,
+      "costo_unidad": 1660,
+      "stock": 201
+    },
+    {
+      "id": "mt-molz732m0y42c",
+      "codigo": "E100-11",
+      "descripcion": "ENVASE VINAGRE * 3000 gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 3,
+      "costo_unidad": 1823.7231,
+      "stock": 24
+    },
+    {
+      "id": "mt-molz732mh2j56",
+      "codigo": "E100-39",
+      "descripcion": "CUÑETE RECUPERADO AMARILLO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 9075.63,
+      "stock": 217
+    },
+    {
+      "id": "mt-molz732mupymq",
+      "codigo": "E100-40",
+      "descripcion": "MATERA ONDULADA ORIGINAL 5326",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 757.3,
+      "stock": 3296
+    },
+    {
+      "id": "mt-molz732mpkg0e",
+      "codigo": "E100-41",
+      "descripcion": "MATERA ONDULADA IMPRESA 5326 SECRETOS",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 828.97,
+      "stock": 1635
+    },
+    {
+      "id": "mt-molz732me1tzo",
+      "codigo": "E100-72",
+      "descripcion": "CUBETA 16 TF DULE 5167",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 312.7,
+      "stock": 900
+    },
+    {
+      "id": "mt-molz732mm7rbf",
+      "codigo": "E100-73",
+      "descripcion": "CUBETA 1/2 DULE 5007",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 270.3,
+      "stock": 508
+    },
+    {
+      "id": "mt-molz732mgmu4o",
+      "codigo": "E100-8",
+      "descripcion": "VALDE GRANDE JHON LUGO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1764.7067,
+      "stock": 218
+    },
+    {
+      "id": "mt-molz732mflrmt",
+      "codigo": "E100-81",
+      "descripcion": "BIDON 20LT BLANCO D'LUCHY",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 11764.705,
+      "stock": 249
+    },
+    {
+      "id": "mt-molz732mfxdxm",
+      "codigo": "E100-82",
+      "descripcion": "ENV. SALSERO 500gr BEIGE SIROPE",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 820,
+      "stock": 1296
+    },
+    {
+      "id": "mt-molz732mzgyky",
+      "codigo": "E100-83",
+      "descripcion": "ENV. SALSERO 500gr CAFE SIROPE",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 820,
+      "stock": 974
+    },
+    {
+      "id": "mt-molz732mv0609",
+      "codigo": "E100-85",
+      "descripcion": "ENV. SALSERO 500gr NEGRO SIROPE",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 820,
+      "stock": 30
+    },
+    {
+      "id": "mt-molz732m15epc",
+      "codigo": "E100-9",
+      "descripcion": "GALON JHON LUGO (LECHES)",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1848.74,
+      "stock": 1176
+    },
+    {
+      "id": "mt-molz732m7s37t",
+      "codigo": "E153",
+      "descripcion": "DOY PACK LECHE CONDENSADA * 250",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 176,
+      "stock": 5396
+    },
+    {
+      "id": "mt-molz732m1o795",
+      "codigo": "E200-07",
+      "descripcion": "BOLSA COJIN IMPRESA LOGO AREQUIPE * 500G",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 0.5,
+      "costo_unidad": 279,
+      "stock": 18164
+    },
+    {
+      "id": "mt-molz732mru4a1",
+      "codigo": "E200-44",
+      "descripcion": "TAPA VERDE VALDE",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 672.26,
+      "stock": 79
+    },
+    {
+      "id": "mt-molz732mautxk",
+      "codigo": "E200-49",
+      "descripcion": "TAPA VALDE ROJA",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 672.268,
+      "stock": 168
+    },
+    {
+      "id": "mt-molz732m9dw6g",
+      "codigo": "E200-53",
+      "descripcion": "BOLSA DOY PACK TRANSPARENTE*1000",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 536,
+      "stock": 3849
+    },
+    {
+      "id": "mt-molz732mk88q2",
+      "codigo": "E200-60",
+      "descripcion": "TAPA GALON ROJA JHON ( LECHES)",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 924.37,
+      "stock": 1363
+    },
+    {
+      "id": "mt-molz732m8x09m",
+      "codigo": "E200-61",
+      "descripcion": "TAPA GALON VERDE JHON (LECHES)",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 924.37,
+      "stock": 474
+    },
+    {
+      "id": "mt-molz732muqonc",
+      "codigo": "E200-73",
+      "descripcion": "BOLSA COJIN IMPRESA LOGO AREQUIPE * 1000",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 334,
+      "stock": 6043
+    },
+    {
+      "id": "mt-molz732m5ngoy",
+      "codigo": "E200-74",
+      "descripcion": "DOY PACK LECHE CONDENSADA*100",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 143,
+      "stock": 14000
+    },
+    {
+      "id": "mt-molz732m2820k",
+      "codigo": "E600-1",
+      "descripcion": "BOLSA DOY PACK LECHE IMPRESA*500",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 271,
+      "stock": 5569
+    },
+    {
+      "id": "mt-molz732maojl6",
+      "codigo": "E600-20",
+      "descripcion": "BOLSA DOY PACK LECHE IMPRESA ELITE *1000",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 342,
+      "stock": 377
+    },
+    {
+      "id": "mt-molz732mtkznj",
+      "codigo": "E600-26",
+      "descripcion": "BOLSA DOY PACK LECHE IMPRESA ELITE *500",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 244,
+      "stock": 3632
+    },
+    {
+      "id": "mt-molz732memw65",
+      "codigo": "E600-5",
+      "descripcion": "BOLSA DOY PACK LECHE IMPRESA*1000",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 342,
+      "stock": 11051
+    },
+    {
+      "id": "mt-molz732m44g8f",
+      "codigo": "E600-8",
+      "descripcion": "BOLSA DOY PACK BLANCA 16*250+8 FUELLE 4 SELLES*1000gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 334,
+      "stock": 5865
+    },
+    {
+      "id": "mt-molz732m88e1j",
+      "codigo": "E800-3",
+      "descripcion": "BOLSA DULE 250 IMPRESA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 187,
+      "stock": 25508
+    },
+    {
+      "id": "mt-molz732mc2epf",
+      "codigo": "E84",
+      "descripcion": "APLICADOR *1000 PLANO NATURAL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1180.672,
+      "stock": 3958
+    },
+    {
+      "id": "mt-molz732mwn055",
+      "codigo": "E85",
+      "descripcion": "APLICADOR*300 PLANO NATURAL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 638.66,
+      "stock": 59
+    },
+    {
+      "id": "mt-molz732mtdbag",
+      "codigo": "E86",
+      "descripcion": "APLICADOR BLANCO DE 400ML CON TAPA * 250",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 642.857,
+      "stock": 1763
+    },
+    {
+      "id": "mt-molz732m6oclv",
+      "codigo": "E87",
+      "descripcion": "APLICADOR*320",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 647.0588,
+      "stock": 5262
+    },
+    {
+      "id": "mt-molz732mjiu90",
+      "codigo": "E88",
+      "descripcion": "APLICADOR*150",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 647.058,
+      "stock": 8545
+    },
+    {
+      "id": "mt-molz732mw5szm",
+      "codigo": "E89",
+      "descripcion": "APLICADOR*810",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1142.8573,
+      "stock": 4579
+    },
+    {
+      "id": "mt-molz732mg30gx",
+      "codigo": "E91",
+      "descripcion": "GARRAFA *1300",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 857.1419,
+      "stock": 3836
+    },
+    {
+      "id": "mt-molz732m5qgcn",
+      "codigo": "E93",
+      "descripcion": "GARRAFA*2700",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1184.8701,
+      "stock": 891
+    },
+    {
+      "id": "mt-molz732mhwx1o",
+      "codigo": "E94",
+      "descripcion": "GARRAFA*4800",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1386.5542,
+      "stock": 983
+    },
+    {
+      "id": "mt-molz732mbgwer",
+      "codigo": "E95",
+      "descripcion": "ENV GARRAFA 4LT NATURAL 40*43",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2823.5283,
+      "stock": 2425
+    },
+    {
+      "id": "mt-molz732mh3fdi",
+      "codigo": "E97",
+      "descripcion": "GARRAFA RECTANGULAR 3800CC TROPICANA * 5000 g",
+      "unidad_compra": "unidad",
+      "contenido_kg": 5,
+      "costo_unidad": 2107.7896,
+      "stock": 34
+    },
+    {
+      "id": "mt-molz732mjs3mt",
+      "codigo": "MIXL1139",
+      "descripcion": "MIX QUIMICO MANJAR TIPO DURO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 9.0722,
+      "stock": 9810
+    },
+    {
+      "id": "mt-molz732mrk3p8",
+      "codigo": "MIXL1140-3",
+      "descripcion": "MIX QUIMICO MANJAR TIPO BLANDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 9.0541,
+      "stock": 19700
+    },
+    {
+      "id": "mt-molz732mdy82a",
+      "codigo": "MIXL1141-3",
+      "descripcion": "MIX QUIMICO SALSA AREQUIPE DULE",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.9323,
+      "stock": 4958
+    },
+    {
+      "id": "mt-molz732m50jw7",
+      "codigo": "MIXL1226",
+      "descripcion": "MIX QUIMICO LECHE CONDENSADA 1226",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 15.6889,
+      "stock": 200906
+    },
+    {
+      "id": "mt-molz732mtu09c",
+      "codigo": "MIXL1227",
+      "descripcion": "MIX QUIMICO LECHE CONDENSADA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.6922,
+      "stock": 10126
+    },
+    {
+      "id": "mt-molz732m56ml3",
+      "codigo": "MP1",
+      "descripcion": "AGUA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.01,
+      "stock": 87469105811.54738
+    },
+    {
+      "id": "mt-molz732m58yxi",
+      "codigo": "MP10",
+      "descripcion": "AZUCAR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.605,
+      "stock": 1433989.373174
+    },
+    {
+      "id": "mt-molz732m02hsg",
+      "codigo": "MP1002",
+      "descripcion": "SILICONA ANTIESPUMANTE 60E",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 17,
+      "stock": 5469.379817
+    },
+    {
+      "id": "mt-molz732md6o1q",
+      "codigo": "MP101",
+      "descripcion": "GELATINA SIN SABOR* 280 BLOM",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 23.9,
+      "stock": 0.000023
+    },
+    {
+      "id": "mt-molz732meo7l3",
+      "codigo": "MP102",
+      "descripcion": "FUMARICO ACIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.8,
+      "stock": 0.000003
+    },
+    {
+      "id": "mt-molz732m8zbc5",
+      "codigo": "MP12",
+      "descripcion": "SORBATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.5,
+      "stock": 4.119445
+    },
+    {
+      "id": "mt-molz732mw9x0p",
+      "codigo": "MP125",
+      "descripcion": "COCOA EN POVO CORONA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 11.9,
+      "stock": 23000.000612
+    },
+    {
+      "id": "mt-molz732m9zbkw",
+      "codigo": "MP13",
+      "descripcion": "BENZOATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.3,
+      "stock": 4.119445
+    },
+    {
+      "id": "mt-molz732meex24",
+      "codigo": "MP14",
+      "descripcion": "EDTA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 11.5,
+      "stock": 0.000004
+    },
+    {
+      "id": "mt-molz732mx62n1",
+      "codigo": "MP185",
+      "descripcion": "HARINA DE ARROZ",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 2.347,
+      "stock": 0.241089
+    },
+    {
+      "id": "mt-molz732mmw2mj",
+      "codigo": "MP33",
+      "descripcion": "GOMA XANTA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10,
+      "stock": 41.053851
+    },
+    {
+      "id": "mt-molz732mllazm",
+      "codigo": "MP34",
+      "descripcion": "BHT",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 30,
+      "stock": 0.000003
+    },
+    {
+      "id": "mt-molz732mdbmgs",
+      "codigo": "MP38",
+      "descripcion": "LECITINA DE SOYA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.8,
+      "stock": 0.000001
+    },
+    {
+      "id": "mt-molz732mu35zs",
+      "codigo": "MP4",
+      "descripcion": "ACIDO CITRICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.2,
+      "stock": 0.000002
+    },
+    {
+      "id": "mt-molz732mz11ml",
+      "codigo": "MP41",
+      "descripcion": "INGREDIENTE 1",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.255,
+      "stock": 455808.171577
+    },
+    {
+      "id": "mt-molz732mq4g8j",
+      "codigo": "MP43",
+      "descripcion": "LECHE SOYA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.5,
+      "stock": 0.013399
+    },
+    {
+      "id": "mt-molz732m03xle",
+      "codigo": "MP47",
+      "descripcion": "ENTURBIANTE MP110EN001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 18.8,
+      "stock": 0.000003
+    },
+    {
+      "id": "mt-molz732mfjhus",
+      "codigo": "MP53",
+      "descripcion": "SAL REFISAL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.8739,
+      "stock": 0.000004
+    },
+    {
+      "id": "mt-molz732mmq9mf",
+      "codigo": "MP55",
+      "descripcion": "NATAMICINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 372.303,
+      "stock": 0.412644
+    },
+    {
+      "id": "mt-molz732m8cank",
+      "codigo": "MP58",
+      "descripcion": "GLICERINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.6546,
+      "stock": 0.010557
+    },
+    {
+      "id": "mt-molz732mp3ixd",
+      "codigo": "MP67",
+      "descripcion": "ALCOHOL ETILICO EXTRANEUTRO96%",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.25,
+      "stock": 95075.662868
+    },
+    {
+      "id": "mt-molz732mk1zlm",
+      "codigo": "MP71",
+      "descripcion": "LECHE EN POLVO ENTERA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 18.4874,
+      "stock": 2131363.353697
+    },
+    {
+      "id": "mt-molz732muhqrl",
+      "codigo": "MP72",
+      "descripcion": "DIMODAN PH 300",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 22.457,
+      "stock": 0.000001
+    },
+    {
+      "id": "mt-molz732mxnsbb",
+      "codigo": "MP73",
+      "descripcion": "CREMODAN S46",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 45.1,
+      "stock": 0.000001
+    },
+    {
+      "id": "mt-molz732mw08uf",
+      "codigo": "MP75",
+      "descripcion": "SUERO LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.2101,
+      "stock": 1921880.529864
+    },
+    {
+      "id": "mt-molz732mhd9hg",
+      "codigo": "mp78",
+      "descripcion": "LECHE EN POLVO DESCREMADA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 16.806,
+      "stock": 0.000229
+    },
+    {
+      "id": "mt-molz732mong2e",
+      "codigo": "MP79",
+      "descripcion": "ALMIDON MODIFICAD ARGUS 050420",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.205,
+      "stock": 979995.798253
+    },
+    {
+      "id": "mt-molz732mquzvw",
+      "codigo": "MP85",
+      "descripcion": "ALMIDON TEMFLO",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 8.81,
+      "stock": 0.253742
+    },
+    {
+      "id": "mt-molz732m7rm2v",
+      "codigo": "MPA199",
+      "descripcion": "PULPA DE guayaba",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.1,
+      "stock": 0.002591
+    },
+    {
+      "id": "mt-molz732meymsg",
+      "codigo": "MPO162",
+      "descripcion": "ACEITE DE HELADERIA Y REPOSTRERIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.1,
+      "stock": 670000.001095
+    },
+    {
+      "id": "mt-molz732mvhjs2",
+      "codigo": "SL101",
+      "descripcion": "SABOR A MANTEKADO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.62,
+      "stock": 0.162811
+    },
+    {
+      "id": "mt-molz732miktx1",
+      "codigo": "SL105",
+      "descripcion": "ESENCIA DE CARAMELO 610139S POLIAROMAS",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8.75,
+      "stock": 2449.999346
+    },
+    {
+      "id": "mt-molz732mvlrsn",
+      "codigo": "SL110",
+      "descripcion": "AREQUIPE SABOR LIQUIDO SL120AR079",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.603,
+      "stock": 20000.035305
+    },
+    {
+      "id": "mt-molz732m8beuj",
+      "codigo": "SL120",
+      "descripcion": "LECHE CONDENSADA SL120LC047 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8.88,
+      "stock": 13073.076688
+    },
+    {
+      "id": "mt-molz732mbmnad",
+      "codigo": "SL179",
+      "descripcion": "CHOCOLATE SABOR LIQUIDO SL330CH094",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.205,
+      "stock": 0.000004
+    },
+    {
+      "id": "mt-molz732mqcbcy",
+      "codigo": "SL188",
+      "descripcion": "FRESA  MEX-FRE312037 SABORIZANTE LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.4033,
+      "stock": 0.000462
+    },
+    {
+      "id": "mt-molz732m3hmo6",
+      "codigo": "SL203",
+      "descripcion": "CREMA DE WHISKY ESENCIA PICOLINI",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 85.32,
+      "stock": 3048.628352
+    },
+    {
+      "id": "mt-molz732mv0lt9",
+      "codigo": "SL204",
+      "descripcion": "CREMA IRLANDESA ESENCIA DISAROMA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.55,
+      "stock": 10855.425828
+    },
+    {
+      "id": "mt-molz732mdgi6a",
+      "codigo": "SL208",
+      "descripcion": "LECHE CONDENSADA SABOR LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 70,
+      "stock": 10000
+    },
+    {
+      "id": "mt-molz732mmj6vd",
+      "codigo": "SL63",
+      "descripcion": "VAINILLA BLANCA 1013270 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 29.216,
+      "stock": 888.59255
+    },
+    {
+      "id": "mt-molz732mt6dui",
+      "codigo": "SP004",
+      "descripcion": "MORA SABOR ENCAPSULADO SE330MO272",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 50.391,
+      "stock": 0.000004
+    },
+    {
+      "id": "mt-molz732m8wdti",
+      "codigo": "SP005",
+      "descripcion": "UVA SABOR ENCAPSULADO  SE330UV035",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 42.427,
+      "stock": 0.000004
+    },
+    {
+      "id": "mt-molz732m0ovy9",
+      "codigo": "SP006",
+      "descripcion": "LIMON SABOR ENCAPSULADO SE330LI152",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 48.225,
+      "stock": 0.000003
+    },
+    {
+      "id": "mt-molz732m9d5lq",
+      "codigo": "1001",
+      "descripcion": "ALMIDON CORRUMEZ",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.9916,
+      "stock": 1298472
+    },
+    {
+      "id": "mt-molz732md0b60",
+      "codigo": "C100-20",
+      "descripcion": "CANECA VACIAS METALICA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8000,
+      "stock": 23
+    },
+    {
+      "id": "mt-molz732mtgxcf",
+      "codigo": "C100-24",
+      "descripcion": "CANECA PVH (AMARILLA)",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6000,
+      "stock": 9
+    },
+    {
+      "id": "mt-molz732m1mn65",
+      "codigo": "COL006",
+      "descripcion": "COLOR TARTACINA( cabarria)",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 25.15,
+      "stock": 24.4
+    },
+    {
+      "id": "mt-molz732mblwsw",
+      "codigo": "COL016",
+      "descripcion": "COLOR ROSADO GRAGEAS",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 109.17,
+      "stock": 25851.44375
+    },
+    {
+      "id": "mt-molz732mp8ss4",
+      "codigo": "COL114",
+      "descripcion": "ROJO FRESA CP130RF003",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 70.69,
+      "stock": 1821.8
+    },
+    {
+      "id": "mt-molz732mr951v",
+      "codigo": "COL172",
+      "descripcion": "UVA CP130UV001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 84.62,
+      "stock": 28751.930053
+    },
+    {
+      "id": "mt-molz732m26fam",
+      "codigo": "COL177",
+      "descripcion": "COLOR # 1 AZUL CP130AZ007",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 51,
+      "stock": 1893.08
+    },
+    {
+      "id": "mt-molz732me6vzk",
+      "codigo": "COL181",
+      "descripcion": "DIOXIDO titanio COLOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 13.8,
+      "stock": 1000
+    },
+    {
+      "id": "mt-molz732mj1j7p",
+      "codigo": "COL182",
+      "descripcion": "VERDE MENTA CP120VM003",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 93.57,
+      "stock": 9136
+    },
+    {
+      "id": "mt-molz732mrpv52",
+      "codigo": "COL186",
+      "descripcion": "COLOR NEGRO PLUS TUSKA CABARRIA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 67.2,
+      "stock": 2500
+    },
+    {
+      "id": "mt-molz732mqz91z",
+      "codigo": "COL50",
+      "descripcion": "NARANJA No 6 CP110NA001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 38.6,
+      "stock": 1821.8
+    },
+    {
+      "id": "mt-molz732m6bpdi",
+      "codigo": "MP1",
+      "descripcion": "AGUA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.01,
+      "stock": 85896719355.53065
+    },
+    {
+      "id": "mt-molz732m0fo7e",
+      "codigo": "MP10",
+      "descripcion": "AZUCAR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.605,
+      "stock": 63444052.366079
+    },
+    {
+      "id": "mt-molz732mwe1v8",
+      "codigo": "MP204",
+      "descripcion": "CERA CARNAUBA AMARILLA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 68.15,
+      "stock": 83056.375
+    },
+    {
+      "id": "mt-molz732melv6l",
+      "codigo": "MP75",
+      "descripcion": "SUERO LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.2101,
+      "stock": 1920000
+    },
+    {
+      "id": "mt-molz732mgn2ga",
+      "codigo": "MPC002",
+      "descripcion": "NUEZ MOSCADA ENTERA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 128.5,
+      "stock": 0.002285
+    },
+    {
+      "id": "mt-molz732mbsar5",
+      "codigo": "131522",
+      "descripcion": "MANGA S.CHOCOLATE * 1000G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 1,
+      "costo_unidad": 1943.3149,
+      "stock": 5
+    },
+    {
+      "id": "mt-molz732mvpgq3",
+      "codigo": "140143",
+      "descripcion": "BOLSA CUÑETE GLASSE FRESA * 20KG",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 20,
+      "costo_unidad": 31437.9048,
+      "stock": 4
+    },
+    {
+      "id": "mt-molz732mx1k3v",
+      "codigo": "151045",
+      "descripcion": "GALON RELLENO DURAZNO *4000G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 4,
+      "costo_unidad": 11738.25,
+      "stock": 55
+    },
+    {
+      "id": "mt-molz732m3bcze",
+      "codigo": "172232-3",
+      "descripcion": "GALON ESENCIA VAINILLA BLANCA*3800ml D Luchy",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7440.596,
+      "stock": 48
+    },
+    {
+      "id": "mt-molz732m2pacs",
+      "codigo": "172301",
+      "descripcion": "UNIDAD ESENCIA S. COCO*60G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.06,
+      "costo_unidad": 690.5257,
+      "stock": 3
+    },
+    {
+      "id": "mt-molz732mhn2e7",
+      "codigo": "COL001",
+      "descripcion": "ROJO PONCEAU CP110RP004",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 57.3,
+      "stock": 19738.4
+    },
+    {
+      "id": "mt-molz732m2bdoj",
+      "codigo": "COL002",
+      "descripcion": "ROJO CARMOISINA CP110RC003",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 90.09,
+      "stock": 0.045426
+    },
+    {
+      "id": "mt-molz732mdhv1t",
+      "codigo": "COL005",
+      "descripcion": "CLOR ROJO PUNZO 4R CABARRIA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 35.55,
+      "stock": 53812.210681
+    },
+    {
+      "id": "mt-molz732mosmyd",
+      "codigo": "COL006",
+      "descripcion": "COLOR TARTACINA( cabarria)",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 25.15,
+      "stock": 35424.369181
+    },
+    {
+      "id": "mt-molz732m54s9n",
+      "codigo": "COL011",
+      "descripcion": "Color Amarrillo Huevo",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 22.05,
+      "stock": 0.30657
+    },
+    {
+      "id": "mt-molz732m0z9rz",
+      "codigo": "COL016",
+      "descripcion": "COLOR ROSADO GRAGEAS",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 109.17,
+      "stock": 15000
+    },
+    {
+      "id": "mt-molz732mrk63b",
+      "codigo": "COL100",
+      "descripcion": "COLOR ERYTROCINA NOVACOLOR SUPRA GRANEL",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 457.85,
+      "stock": 15709.111945
+    },
+    {
+      "id": "mt-molz732m8yzum",
+      "codigo": "COL115",
+      "descripcion": "COLOR TAMARINDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 83.1933,
+      "stock": 0.0375
+    },
+    {
+      "id": "mt-molz732m9u8z5",
+      "codigo": "COL172",
+      "descripcion": "UVA CP130UV001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 84.62,
+      "stock": 9600
+    },
+    {
+      "id": "mt-molz732mweden",
+      "codigo": "COL177",
+      "descripcion": "COLOR # 1 AZUL CP130AZ007",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 51,
+      "stock": 39283.718316
+    },
+    {
+      "id": "mt-molz732mwhdrd",
+      "codigo": "COL181",
+      "descripcion": "DIOXIDO titanio COLOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 13.8,
+      "stock": 13007.181454
+    },
+    {
+      "id": "mt-molz732minuec",
+      "codigo": "COL182",
+      "descripcion": "VERDE MENTA CP120VM003",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 93.57,
+      "stock": 4973.277
+    },
+    {
+      "id": "mt-molz732mvz0se",
+      "codigo": "COL184",
+      "descripcion": "CARAMELO LIQUIDO AP-2000-V COLOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.9,
+      "stock": 23917.55955
+    },
+    {
+      "id": "mt-molz732mcvg2v",
+      "codigo": "COL201",
+      "descripcion": "LACA AMARRILLO TARTRACINA No 6",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 43,
+      "stock": 0.004452
+    },
+    {
+      "id": "mt-molz732mv8013",
+      "codigo": "COL202",
+      "descripcion": "LACA AZUL BRILLANTE AZUL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 58.1,
+      "stock": 0.001182
+    },
+    {
+      "id": "mt-molz732mzwcwz",
+      "codigo": "COL50",
+      "descripcion": "NARANJA No 6 CP110NA001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 38.6,
+      "stock": 7127.771121
+    },
+    {
+      "id": "mt-molz732mqm4zm",
+      "codigo": "COL51",
+      "descripcion": "LACA AMARRILLO SUNSET No 6",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 52.3,
+      "stock": 0.004381
+    },
+    {
+      "id": "mt-molz732mavpro",
+      "codigo": "COL75",
+      "descripcion": "CARAMELO POLVO CP130CA004",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 27,
+      "stock": 0.000988
+    },
+    {
+      "id": "mt-molz732mpf8bg",
+      "codigo": "COM0012",
+      "descripcion": "ALMENDRA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 34,
+      "stock": 0.358147
+    },
+    {
+      "id": "mt-molz732m1qv59",
+      "codigo": "E100",
+      "descripcion": "GOTERO DE 10 ML CON TAPA SURTIDA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 65.126,
+      "stock": 31184
+    },
+    {
+      "id": "mt-molz732m8uq3h",
+      "codigo": "E100-1",
+      "descripcion": "GALON GARRAFA   ESENCIA*3800",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2453.7806,
+      "stock": 48
+    },
+    {
+      "id": "mt-molz732m1mvnp",
+      "codigo": "E100-109",
+      "descripcion": "ENVASE COLOR CARAMELO 80G",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.08,
+      "costo_unidad": 425.2365,
+      "stock": 2355
+    },
+    {
+      "id": "mt-molz732mhnwzs",
+      "codigo": "E100-11",
+      "descripcion": "ENVASE VINAGRE * 3000 gr",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 3,
+      "costo_unidad": 1823.7231,
+      "stock": 447
+    },
+    {
+      "id": "mt-molz732mwz6tu",
+      "codigo": "E100-118",
+      "descripcion": "GOTERO DE 60 ML CON TAPA SURTIDA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 294.1177,
+      "stock": 7728
+    },
+    {
+      "id": "mt-molz732mso75b",
+      "codigo": "E100-2",
+      "descripcion": "BOTELLA DE ESENCIA 500",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 526.297,
+      "stock": 805
+    },
+    {
+      "id": "mt-molz732m39buu",
+      "codigo": "E100-201",
+      "descripcion": "Bolsa glasse 4 kilos con logo",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 535,
+      "stock": 1456
+    },
+    {
+      "id": "mt-molz732muv2pe",
+      "codigo": "E100-3",
+      "descripcion": "ENVASE ESENCIA 60",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 537.815,
+      "stock": 6038
+    },
+    {
+      "id": "mt-molz732mbeynq",
+      "codigo": "E100-40",
+      "descripcion": "MATERA ONDULADA ORIGINAL 5326",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 757.3,
+      "stock": 69
+    },
+    {
+      "id": "mt-molz732mmaq12",
+      "codigo": "E100-45",
+      "descripcion": "BOLSA GALON 4 KILOS RELLENO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 535,
+      "stock": 11940
+    },
+    {
+      "id": "mt-molz732m79w2s",
+      "codigo": "E100-46",
+      "descripcion": "BOLSA GALON 5 KILOS RELLENO Y GLASSE PROMO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 622,
+      "stock": 1353
+    },
+    {
+      "id": "mt-molz732mepjs8",
+      "codigo": "E100-5",
+      "descripcion": "BOLSA DOY PACK LOGO GLASSE",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 342,
+      "stock": 20651
+    },
+    {
+      "id": "mt-molz732m505qq",
+      "codigo": "E100-6",
+      "descripcion": "BOLSA GALON 4 KILOS 25 *35 TRANSPARENTE SIN LOGO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 670,
+      "stock": 50
+    },
+    {
+      "id": "mt-molz732mudmwf",
+      "codigo": "E100-7",
+      "descripcion": "BOLSA GALON 4 KILOS MENBRETE",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 535,
+      "stock": 6819
+    },
+    {
+      "id": "mt-molz732m0kuz8",
+      "codigo": "E100-81",
+      "descripcion": "BIDON 20LT BLANCO D'LUCHY",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 11764.705,
+      "stock": 23
+    },
+    {
+      "id": "mt-molz732m4u3yw",
+      "codigo": "E100-84",
+      "descripcion": "ENV. SALSERO 500gr CEREZA SIROPE",
+      "unidad_compra": "Gramo",
+      "contenido_kg": 0.5,
+      "costo_unidad": 865,
+      "stock": 697
+    },
+    {
+      "id": "mt-molz732m60a5h",
+      "codigo": "E100-9",
+      "descripcion": "GALON JHON LUGO (LECHES)",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1848.74,
+      "stock": 305
+    },
+    {
+      "id": "mt-molz732ma7449",
+      "codigo": "E146",
+      "descripcion": "BOTELLA miel*1000",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 841.6742,
+      "stock": 1552
+    },
+    {
+      "id": "mt-molz732nk60x5",
+      "codigo": "E147",
+      "descripcion": "BOTELLA miel *500",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 413.165,
+      "stock": 3308
+    },
+    {
+      "id": "mt-molz732nttf9r",
+      "codigo": "E200-055",
+      "descripcion": "MANGA DOY PACK RELLENO 1000GR",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 342,
+      "stock": 11643
+    },
+    {
+      "id": "mt-molz732njol4f",
+      "codigo": "E200-43",
+      "descripcion": "BOLSA DOY PACK SALSA  MERMELADA* 200 MORA",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 146,
+      "stock": 35742
+    },
+    {
+      "id": "mt-molz732nmtbpc",
+      "codigo": "E200-47",
+      "descripcion": "MANGA SALSA LOGO GENERICA*1000",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 222,
+      "stock": 13227
+    },
+    {
+      "id": "mt-molz732n2mvp3",
+      "codigo": "E200-53",
+      "descripcion": "BOLSA DOY PACK TRANSPARENTE*1000",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 536,
+      "stock": 189
+    },
+    {
+      "id": "mt-molz732ngq1q1",
+      "codigo": "E200-60",
+      "descripcion": "TAPA GALON ROJA JHON ( LECHES)",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 924.37,
+      "stock": 343
+    },
+    {
+      "id": "mt-molz732nc15ic",
+      "codigo": "E200-61",
+      "descripcion": "TAPA GALON VERDE JHON (LECHES)",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 924.37,
+      "stock": 162
+    },
+    {
+      "id": "mt-molz732nphzj7",
+      "codigo": "E200-72",
+      "descripcion": "DOY PACK SALSA MERMELADA*200 FRESA",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 146,
+      "stock": 48679
+    },
+    {
+      "id": "mt-molz732nn06s8",
+      "codigo": "E200-78",
+      "descripcion": "DOY PACK SALSA MERMELADA*200 PIÑA",
+      "unidad_compra": "Unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 146,
+      "stock": 49345
+    },
+    {
+      "id": "mt-molz732nolb98",
+      "codigo": "E600-4",
+      "descripcion": "BOLSA COJIN  TRANSPARENTE*1000 SALSA ROBERT",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 144,
+      "stock": 4920
+    },
+    {
+      "id": "mt-molz732nmq35b",
+      "codigo": "E87",
+      "descripcion": "APLICADOR*320",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 647.0588,
+      "stock": 8277
+    },
+    {
+      "id": "mt-molz732nz52t5",
+      "codigo": "E89",
+      "descripcion": "APLICADOR*810",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1142.8573,
+      "stock": 2473
+    },
+    {
+      "id": "mt-molz732nhj89v",
+      "codigo": "E95",
+      "descripcion": "ENV GARRAFA 4LT NATURAL 40*43",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2823.5283,
+      "stock": 743
+    },
+    {
+      "id": "mt-molz732nm9up9",
+      "codigo": "ET200-09",
+      "descripcion": "ETIQUETA MEZCLA LACTEA POLVO * 2500 gr",
+      "unidad_compra": "unidad",
+      "contenido_kg": 2.5,
+      "costo_unidad": 100,
+      "stock": 0.002
+    },
+    {
+      "id": "mt-molz732nc5sqa",
+      "codigo": "ET200-53",
+      "descripcion": "ETIQUETA SALSA MAYONESA 1000g \"GAVIUS\"",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 145,
+      "stock": 0.2525
+    },
+    {
+      "id": "mt-molz732nt5qa0",
+      "codigo": "MIXL1601",
+      "descripcion": "MIX QUIMICO SIROP FRESA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 15.1019,
+      "stock": 1213.093169
+    },
+    {
+      "id": "mt-molz732nmbehs",
+      "codigo": "MIXS1304",
+      "descripcion": "MIX QUIMICO S MORA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 16.6462,
+      "stock": 14690
+    },
+    {
+      "id": "mt-molz732nr048x",
+      "codigo": "MIXS1308",
+      "descripcion": "MIX QUIMICO S MARACUYA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 13.005,
+      "stock": 4218
+    },
+    {
+      "id": "mt-molz732nm09f6",
+      "codigo": "MIXS1404",
+      "descripcion": "MIX QUIMICO GG MORA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 17.5915,
+      "stock": 2372
+    },
+    {
+      "id": "mt-molz732n66heb",
+      "codigo": "MIXS1410",
+      "descripcion": "MIX QUIMICO GG DURAZNO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 9.0342,
+      "stock": 1023
+    },
+    {
+      "id": "mt-molz732n1qmbe",
+      "codigo": "MIXS1410-1",
+      "descripcion": "MIX QUIMICO G DURAZON",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 9.1628,
+      "stock": 2051
+    },
+    {
+      "id": "mt-molz732ndjp86",
+      "codigo": "MIXS1417-1",
+      "descripcion": "MIX QUIMICO G GUANABANA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 9.9463,
+      "stock": 5384
+    },
+    {
+      "id": "mt-molz732ndlzlm",
+      "codigo": "MIXS1443",
+      "descripcion": "MIX QUIMICO GG NEUTRO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8.7119,
+      "stock": 1010
+    },
+    {
+      "id": "mt-molz732nwlan7",
+      "codigo": "MIXS1504",
+      "descripcion": "MIX QUIMICO R MORA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 18.7864,
+      "stock": 2280
+    },
+    {
+      "id": "mt-molz732ne87ua",
+      "codigo": "MIXS1517",
+      "descripcion": "MIX QUIMICO R GUANABANA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.2714,
+      "stock": 258
+    },
+    {
+      "id": "mt-molz732nptmeo",
+      "codigo": "MIXS4008",
+      "descripcion": "MIX QUIMICO Y MARACUYA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 16.5951,
+      "stock": 1796
+    },
+    {
+      "id": "mt-molz732nuswmm",
+      "codigo": "MP1",
+      "descripcion": "AGUA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.01,
+      "stock": 83899497764.17152
+    },
+    {
+      "id": "mt-molz732njruwd",
+      "codigo": "MP10",
+      "descripcion": "AZUCAR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.605,
+      "stock": 2373121.278297
+    },
+    {
+      "id": "mt-molz732now1pd",
+      "codigo": "MP101",
+      "descripcion": "GELATINA SIN SABOR* 280 BLOM",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 23.9,
+      "stock": 0.133387
+    },
+    {
+      "id": "mt-molz732ni6zpo",
+      "codigo": "MP104",
+      "descripcion": "TRIACETINA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 13.322,
+      "stock": 14250.371513
+    },
+    {
+      "id": "mt-molz732nwjvwd",
+      "codigo": "MP106",
+      "descripcion": "STEVIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.26,
+      "stock": 0.000191
+    },
+    {
+      "id": "mt-molz732nw8fex",
+      "codigo": "MP107",
+      "descripcion": "ENTURBIANTE LIQUIDO ML110EN004",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 29.775,
+      "stock": 15060.074005
+    },
+    {
+      "id": "mt-molz732n30c0y",
+      "codigo": "MP108",
+      "descripcion": "ACIDO MALICO MP110AM039",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.8,
+      "stock": 2072
+    },
+    {
+      "id": "mt-molz732ne80y6",
+      "codigo": "MP109",
+      "descripcion": "VINO TINTO SABOR LIQUIDO SL330VT139",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.098,
+      "stock": 34039.925
+    },
+    {
+      "id": "mt-molz732np9dy9",
+      "codigo": "MP11",
+      "descripcion": "AZUCAR REFINADA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.34,
+      "stock": 0.340605
+    },
+    {
+      "id": "mt-molz732nw7gdx",
+      "codigo": "MP112",
+      "descripcion": "SABOR UVA DORA DISAROMAS",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 23.86,
+      "stock": 3380
+    },
+    {
+      "id": "mt-molz732n29ngj",
+      "codigo": "MP12",
+      "descripcion": "SORBATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.5,
+      "stock": 504.549555
+    },
+    {
+      "id": "mt-molz732nzqi44",
+      "codigo": "MP125",
+      "descripcion": "COCOA EN POVO CORONA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 11.9,
+      "stock": 20105.421249
+    },
+    {
+      "id": "mt-molz732nrijfy",
+      "codigo": "MP13",
+      "descripcion": "BENZOATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.3,
+      "stock": 8.447031
+    },
+    {
+      "id": "mt-molz732n9y7ou",
+      "codigo": "MP157",
+      "descripcion": "HUMO LIQUIDO P 50",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 94.4308,
+      "stock": 0.004766
+    },
+    {
+      "id": "mt-molz732norldq",
+      "codigo": "MP16",
+      "descripcion": "SNOFLAY 6733",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.775,
+      "stock": 0.001228
+    },
+    {
+      "id": "mt-molz732nvwf6s",
+      "codigo": "MP185",
+      "descripcion": "HARINA DE ARROZ",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 2.347,
+      "stock": 29199.999981
+    },
+    {
+      "id": "mt-molz732nfs6b2",
+      "codigo": "MP192",
+      "descripcion": "SEMILLA DE AMAPOLA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 40,
+      "stock": 0.000055
+    },
+    {
+      "id": "mt-molz732nlpnyq",
+      "codigo": "MP20",
+      "descripcion": "CMC",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 14.8,
+      "stock": 6266.135979
+    },
+    {
+      "id": "mt-molz732nxceat",
+      "codigo": "MP200",
+      "descripcion": "ACIDO TARTARICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.8,
+      "stock": 244.050792
+    },
+    {
+      "id": "mt-molz732num6al",
+      "codigo": "MP3",
+      "descripcion": "ACIDO ACETICO GRADOO ALIMENTICIO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.102,
+      "stock": 3080
+    },
+    {
+      "id": "mt-molz732nb113m",
+      "codigo": "MP300",
+      "descripcion": "BUTIRICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 12.4277,
+      "stock": 15000.000621
+    },
+    {
+      "id": "mt-molz732ndt9en",
+      "codigo": "MP33",
+      "descripcion": "GOMA XANTA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10,
+      "stock": 0.000124
+    },
+    {
+      "id": "mt-molz732niwdgv",
+      "codigo": "MP34",
+      "descripcion": "BHT",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 30,
+      "stock": 0.004766
+    },
+    {
+      "id": "mt-molz732nxoo18",
+      "codigo": "MP3432",
+      "descripcion": "COLOR CARAMELO C-11",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 6.5546,
+      "stock": 197328.302096
+    },
+    {
+      "id": "mt-molz732neosbq",
+      "codigo": "MP3451",
+      "descripcion": "COLOR CARAMELO BIDON 25 KILOS",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 6.0504,
+      "stock": 0.042336
+    },
+    {
+      "id": "mt-molz732ny1vz0",
+      "codigo": "MP4",
+      "descripcion": "ACIDO CITRICO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.2,
+      "stock": 217458.936995
+    },
+    {
+      "id": "mt-molz732nv3l27",
+      "codigo": "MP41",
+      "descripcion": "INGREDIENTE 1",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.255,
+      "stock": 936562.973822
+    },
+    {
+      "id": "mt-molz732njxgp0",
+      "codigo": "MP43",
+      "descripcion": "LECHE SOYA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.5,
+      "stock": 0.004923
+    },
+    {
+      "id": "mt-molz732nahzn7",
+      "codigo": "MP47",
+      "descripcion": "ENTURBIANTE MP110EN001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 18.8,
+      "stock": 0.000114
+    },
+    {
+      "id": "mt-molz732n7ooh5",
+      "codigo": "MP48",
+      "descripcion": "BICARBONATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1.881,
+      "stock": 20000.004794
+    },
+    {
+      "id": "mt-molz732n449ok",
+      "codigo": "MP49",
+      "descripcion": "CITRATO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 4.7,
+      "stock": 0.000178
+    },
+    {
+      "id": "mt-molz732nbg2s7",
+      "codigo": "MP53",
+      "descripcion": "SAL REFISAL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.8739,
+      "stock": 2540.002355
+    },
+    {
+      "id": "mt-molz732nn2pp5",
+      "codigo": "MP55",
+      "descripcion": "NATAMICINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 372.303,
+      "stock": 10.00004
+    },
+    {
+      "id": "mt-molz732n0ql9f",
+      "codigo": "MP57",
+      "descripcion": "ACEITUNAS",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 22.409,
+      "stock": 0.000091
+    },
+    {
+      "id": "mt-molz732n0v84x",
+      "codigo": "MP58",
+      "descripcion": "GLICERINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.6546,
+      "stock": 661343.832737
+    },
+    {
+      "id": "mt-molz732n8b6lo",
+      "codigo": "MP64",
+      "descripcion": "VAINILLINA MP110VA001",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 171.9045,
+      "stock": 0.000204
+    },
+    {
+      "id": "mt-molz732nt4f37",
+      "codigo": "MP65",
+      "descripcion": "ETIL VAINILLINA POLVO MP110EV003",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 48,
+      "stock": 20779.995473
+    },
+    {
+      "id": "mt-molz732nzoypr",
+      "codigo": "MP66",
+      "descripcion": "PROPILELNGLYCOL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.6,
+      "stock": 421013.438203
+    },
+    {
+      "id": "mt-molz732ndjkg2",
+      "codigo": "MP666",
+      "descripcion": "ACETATO DE ISOAMILO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 26.6466,
+      "stock": 15850.491403
+    },
+    {
+      "id": "mt-molz732nzpp6g",
+      "codigo": "MP67",
+      "descripcion": "ALCOHOL ETILICO EXTRANEUTRO96%",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.25,
+      "stock": 433110.001485
+    },
+    {
+      "id": "mt-molz732n08x9r",
+      "codigo": "MP71",
+      "descripcion": "LECHE EN POLVO ENTERA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 18.4874,
+      "stock": 0.1
+    },
+    {
+      "id": "mt-molz732n4tgmb",
+      "codigo": "MP76",
+      "descripcion": "PECTINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 51,
+      "stock": 273.745
+    },
+    {
+      "id": "mt-molz732n0oe7u",
+      "codigo": "mp78",
+      "descripcion": "LECHE EN POLVO DESCREMADA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 16.806,
+      "stock": 0.07088
+    },
+    {
+      "id": "mt-molz732nuipdl",
+      "codigo": "MP85",
+      "descripcion": "ALMIDON TEMFLO",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 8.81,
+      "stock": 908986.411027
+    },
+    {
+      "id": "mt-molz732njbod8",
+      "codigo": "MP9",
+      "descripcion": "GLUTAMATO MONOSODICOEN AGUJAS QUIMICA AROMATICA ANDINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.1,
+      "stock": 0.442656
+    },
+    {
+      "id": "mt-molz732nwgbni",
+      "codigo": "MPA187",
+      "descripcion": "FRUTA PULPA DE FRESA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.3782,
+      "stock": 195999.976079
+    },
+    {
+      "id": "mt-molz732n5hhno",
+      "codigo": "MPA189",
+      "descripcion": "FRUTA PULPA DE MARACUYA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 10.084,
+      "stock": 40000.64655
+    },
+    {
+      "id": "mt-molz732nf0jmc",
+      "codigo": "MPA191",
+      "descripcion": "FRUTA GUANABANA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 7.563,
+      "stock": 0.000064
+    },
+    {
+      "id": "mt-molz732n5bor0",
+      "codigo": "MPA192",
+      "descripcion": "FRUTA DE PULPA DE UCHUA",
+      "unidad_compra": "GRAMOS",
+      "contenido_kg": 1,
+      "costo_unidad": 0.5556,
+      "stock": 0.138304
+    },
+    {
+      "id": "mt-molz732nafod9",
+      "codigo": "MPA193",
+      "descripcion": "FRUTA PULPA DE UVA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 1.8487,
+      "stock": 0.288972
+    },
+    {
+      "id": "mt-molz732n9wmtz",
+      "codigo": "MPA195",
+      "descripcion": "FRUTA PULPA DE AGRAZ",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7,
+      "stock": 0.000146
+    },
+    {
+      "id": "mt-molz732n4tvkf",
+      "codigo": "MPA198",
+      "descripcion": "PULPA FRUTA 1",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.3502,
+      "stock": 0.034336
+    },
+    {
+      "id": "mt-molz732n4rgi9",
+      "codigo": "MPA199",
+      "descripcion": "PULPA DE guayaba",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 2.1,
+      "stock": 0.001398
+    },
+    {
+      "id": "mt-molz732n9il77",
+      "codigo": "MPA200",
+      "descripcion": "PULPA DE FRUTAS",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 0.8,
+      "stock": 271883.639015
+    },
+    {
+      "id": "mt-molz732n6m44q",
+      "codigo": "MPA92",
+      "descripcion": "FRUTA DE PI;A",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 2.401,
+      "stock": 26000.000846
+    },
+    {
+      "id": "mt-molz732nlrto4",
+      "codigo": "SL002",
+      "descripcion": "SABOR LIQUIDO KOLA ROJA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 64.73,
+      "stock": 21200
+    },
+    {
+      "id": "mt-molz732nq1kcj",
+      "codigo": "SL006",
+      "descripcion": "SABOR LIQUIDO GUAYABA",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 46.42,
+      "stock": 4379.998942
+    },
+    {
+      "id": "mt-molz732nn0nj6",
+      "codigo": "SL014",
+      "descripcion": "SABORIZANTE  SABOR CAFE 1010382",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.63,
+      "stock": 3129.872464
+    },
+    {
+      "id": "mt-molz732n12tl2",
+      "codigo": "SL101",
+      "descripcion": "SABOR A MANTEKADO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.62,
+      "stock": 5525.15204
+    },
+    {
+      "id": "mt-molz732n2diiv",
+      "codigo": "SL103",
+      "descripcion": "SABOR FRESA TIPO BOM BOM BUM SABOR LIQ",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 112.84,
+      "stock": 15654.425419
+    },
+    {
+      "id": "mt-molz732nr5wxe",
+      "codigo": "SL106",
+      "descripcion": "COCO POLIAROMAS ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 39.134,
+      "stock": 18300.000217
+    },
+    {
+      "id": "mt-molz732ndzdi5",
+      "codigo": "SL110",
+      "descripcion": "AREQUIPE SABOR LIQUIDO SL120AR079",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.603,
+      "stock": 15250.053155
+    },
+    {
+      "id": "mt-molz732nl7swh",
+      "codigo": "SL111",
+      "descripcion": "NARANJA 5 FOLD",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 285,
+      "stock": 5449.524954
+    },
+    {
+      "id": "mt-molz732nvjkou",
+      "codigo": "SL112",
+      "descripcion": "QUESO MEX-ECO114612 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.595,
+      "stock": 11749.337222
+    },
+    {
+      "id": "mt-molz732njl17m",
+      "codigo": "SL113",
+      "descripcion": "NARANJA BRASIL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 121,
+      "stock": 5449.999718
+    },
+    {
+      "id": "mt-molz732nrt7eu",
+      "codigo": "SL114",
+      "descripcion": "CITRAL",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 55.7,
+      "stock": 5949.999368
+    },
+    {
+      "id": "mt-molz732nuqnpb",
+      "codigo": "SL120",
+      "descripcion": "LECHE CONDENSADA SL120LC047 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8.88,
+      "stock": 2479.999819
+    },
+    {
+      "id": "mt-molz732n94xa1",
+      "codigo": "SL158",
+      "descripcion": "BBQ LIQUIDO AL330BA039 SABOR",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 37.83,
+      "stock": 0.004803
+    },
+    {
+      "id": "mt-molz732nqrxtu",
+      "codigo": "SL168",
+      "descripcion": "PONQUE dora disaromas",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 91.74,
+      "stock": 8602.868672
+    },
+    {
+      "id": "mt-molz732nrhlrz",
+      "codigo": "SL169",
+      "descripcion": "PONQUE NEGRO SL120PN008 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 99.54,
+      "stock": 29499.999962
+    },
+    {
+      "id": "mt-molz732n8b5e4",
+      "codigo": "SL171",
+      "descripcion": "MORA SABOR LIQUIDO SL330MO442",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 11.06,
+      "stock": 20580.441788
+    },
+    {
+      "id": "mt-molz732n6uzhk",
+      "codigo": "SL173",
+      "descripcion": "MARACUYA ACO 14527 SABORIZANTE LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 96.9956,
+      "stock": 7063.580676
+    },
+    {
+      "id": "mt-molz732nmrt4j",
+      "codigo": "SL175",
+      "descripcion": "PIÑA 0000020 SABORIZANTE LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.1428,
+      "stock": 674.105457
+    },
+    {
+      "id": "mt-molz732n2ndb6",
+      "codigo": "SL176",
+      "descripcion": "DURAZNO SABOR LIQUIDO DISAROMAS",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 70.4,
+      "stock": 8423.894116
+    },
+    {
+      "id": "mt-molz732nzrtry",
+      "codigo": "SL178",
+      "descripcion": "CHICLE MEX-EC0115436 SABORIZANTE LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 9.25,
+      "stock": 9712.962447
+    },
+    {
+      "id": "mt-molz732nzayz0",
+      "codigo": "SL183",
+      "descripcion": "KIWI MEX-EC0109960 SABORIZANTE LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 11.91,
+      "stock": 328.133474
+    },
+    {
+      "id": "mt-molz732npl0dj",
+      "codigo": "SL184",
+      "descripcion": "GUANABANA MEX-EC0135812 SABORIZANTE LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.77,
+      "stock": 14828.36009
+    },
+    {
+      "id": "mt-molz732ncvqkk",
+      "codigo": "SL188",
+      "descripcion": "FRESA  MEX-FRE312037 SABORIZANTE LIQUIDO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.4033,
+      "stock": 13076.011667
+    },
+    {
+      "id": "mt-molz732n0kz1y",
+      "codigo": "SL20",
+      "descripcion": "LIMON SABOR LIQUIDO disaromas",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 9.41,
+      "stock": 2066.094619
+    },
+    {
+      "id": "mt-molz732nxcfrg",
+      "codigo": "SL2002",
+      "descripcion": "CEREZA MADURA  SL 330CE064",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 7.05,
+      "stock": 14474.206976
+    },
+    {
+      "id": "mt-molz732nzi9fg",
+      "codigo": "SL203",
+      "descripcion": "CREMA DE WHISKY ESENCIA PICOLINI",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 85.32,
+      "stock": 0.011137
+    },
+    {
+      "id": "mt-molz732nepj1p",
+      "codigo": "SL205",
+      "descripcion": "ESENCIA SABOR YOGURT 1013420 DISAROMAS",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.47,
+      "stock": 743.324792
+    },
+    {
+      "id": "mt-molz732nnbd7u",
+      "codigo": "SL206",
+      "descripcion": "ESENCIA  SALSA CARNES AL330SC106",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 30.35,
+      "stock": 0.001624
+    },
+    {
+      "id": "mt-molz732nsm9a9",
+      "codigo": "SL21",
+      "descripcion": "HINOJO SABOR LIQUIDO SL330HI047",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 6.31,
+      "stock": 10000
+    },
+    {
+      "id": "mt-molz732nnc6p8",
+      "codigo": "SL211",
+      "descripcion": "MANDARINA SABOR LIQUIDO DISAROMAS",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 30,
+      "stock": 0.00028
+    },
+    {
+      "id": "mt-molz732ncu4de",
+      "codigo": "SL215",
+      "descripcion": "SALSA TERIYAKI AL330ST102",
+      "unidad_compra": "unidad",
+      "contenido_kg": 1,
+      "costo_unidad": 45.49,
+      "stock": 0.002679
+    },
+    {
+      "id": "mt-molz732nrc4ic",
+      "codigo": "SL216",
+      "descripcion": "SALSA CHINA AL330SCC103",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 32.24,
+      "stock": 0.056382
+    },
+    {
+      "id": "mt-molz732nr1pfq",
+      "codigo": "SL217",
+      "descripcion": "INGLESA AL330SCC104",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 32.24,
+      "stock": 0.189323
+    },
+    {
+      "id": "mt-molz732n1cs8p",
+      "codigo": "SL36",
+      "descripcion": "MOSTAZA SABOR LIQUIDO AL330MO187",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 111.01,
+      "stock": 0.00123
+    },
+    {
+      "id": "mt-molz732n8269q",
+      "codigo": "SL63",
+      "descripcion": "VAINILLA BLANCA 1013270 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 29.216,
+      "stock": 15249.999118
+    },
+    {
+      "id": "mt-molz732nruziy",
+      "codigo": "SL68",
+      "descripcion": "MANTEQUILLA frechent  MEX-ECO114619 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 5.784,
+      "stock": 21440.003034
+    },
+    {
+      "id": "mt-molz732n8be5r",
+      "codigo": "SL69",
+      "descripcion": "CANELa latour 977033660072293 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 47.5,
+      "stock": 1249.999863
+    },
+    {
+      "id": "mt-molz732nfi78x",
+      "codigo": "SL70",
+      "descripcion": "BANANO 1010310 ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8.75,
+      "stock": 11480.0028
+    },
+    {
+      "id": "mt-molz732n5v5ln",
+      "codigo": "SL71",
+      "descripcion": "MANTEQUILLA RANCH ESENCIA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 8.169,
+      "stock": 14840.00305
+    },
+    {
+      "id": "mt-molz732nqfao4",
+      "codigo": "SL95",
+      "descripcion": "MANTEQUILLA SABOR LIQUIDO SL330MA594 MARGARINA",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 20,
+      "stock": 0.00432
+    },
+    {
+      "id": "mt-molz732n7qwpy",
+      "codigo": "SP001",
+      "descripcion": "FRESA SABOR ENCAPSULADO SE330FR183",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 52.581,
+      "stock": 0.000462
+    },
+    {
+      "id": "mt-molz732n9m8og",
+      "codigo": "SP004",
+      "descripcion": "MORA SABOR ENCAPSULADO SE330MO272",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 50.391,
+      "stock": 0.000409
+    },
+    {
+      "id": "mt-molz732ndj3em",
+      "codigo": "SP005",
+      "descripcion": "UVA SABOR ENCAPSULADO  SE330UV035",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 42.427,
+      "stock": 0.004702
+    },
+    {
+      "id": "mt-molz732ninsuk",
+      "codigo": "SP007",
+      "descripcion": "MANZANA VERDE SABOR ENCAPSULADO SE330MV273",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 42.85,
+      "stock": 0.000022
+    },
+    {
+      "id": "mt-molz732nqwdsd",
+      "codigo": "SP009",
+      "descripcion": "PIÑA SABOR ENCAPSULADO  SE330PI127",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 32.68,
+      "stock": 0.001043
+    },
+    {
+      "id": "mt-molz732nbe21z",
+      "codigo": "SP010",
+      "descripcion": "DURAZNO SABOR ENCAPSULADO SE330DU036",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 66.079,
+      "stock": 0.002371
+    },
+    {
+      "id": "mt-molz732nff97c",
+      "codigo": "SP015",
+      "descripcion": "SABOR GALLINA FCA15695",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 71,
+      "stock": 0.000148
+    },
+    {
+      "id": "mt-molz732ntd9nl",
+      "codigo": "SP016",
+      "descripcion": "SABOR JAMON AHUMADO FCA 17342",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 98.9,
+      "stock": 0.00021
+    },
+    {
+      "id": "mt-molz732n8fwbr",
+      "codigo": "SP60",
+      "descripcion": "SABOR POLVO AJO",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 200.7,
+      "stock": 0.003307
+    },
+    {
+      "id": "mt-molz732nq3ub8",
+      "codigo": "SP62",
+      "descripcion": "POLVO ROJO Nº 40 PT",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 56.4,
+      "stock": 0.004126
+    },
+    {
+      "id": "mt-molz732n9jd09",
+      "codigo": "SP81",
+      "descripcion": "AZORRUBINA PT ROJO Nª 3",
+      "unidad_compra": "gramo",
+      "contenido_kg": 0.001,
+      "costo_unidad": 59.2,
+      "stock": 37465.438217
+    }
+  ],
+  "recetas": {},
+  "usuarios": [
+    {
+      "id": "u-admin",
+      "usuario": "admin",
+      "perfil": "Administrador",
+      "rol": "admin",
+      "nombre": "Administrador General",
+      "activo": true,
+      "creado": "2026-04-30"
+    },
+    {
+      "id": "u-molze5a6r20fe",
+      "usuario": "alimentos",
+      "perfil": "Líder de Producción",
+      "rol": "lider",
+      "nombre": "Ing. Niño",
+      "activo": true,
+      "creado": "2026-04-30"
+    }
+  ]
+}
